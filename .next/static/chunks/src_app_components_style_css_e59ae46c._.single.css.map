@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/style.css"],"sourcesContent":["/* From Uiverse.io by vikramsinghnegi */ \n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #0b2a88;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n"],"names":[],"mappings":"AACA;;;;;;;;;;AAUA;;;;;;;;;AAUA;;;;AAIA"}}]
+}

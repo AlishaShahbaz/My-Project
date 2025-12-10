@@ -1,0 +1,6983 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([typeof document === "object" ? document.currentScript : undefined, {
+
+"[project]/src/app/data/ServicesLinks.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>__TURBOPACK__default__export__
+});
+const ServicesData = [
+    {
+        "id": "AI Services",
+        "title": "AI Services",
+        "href": "/services/ai-services",
+        "description": "Let Taskers help tackle your to-do list.",
+        "banner": "/_18. AI.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "AI Services",
+                "description": "Discover Limitless Possibilities with AI Professionals",
+                "banner": "/_18. AI.jpg"
+            },
+            "about": {
+                "title": "About Our AI Services",
+                "text": "On our platform, you can find a wide range of verified AI specialists ready to bring your ideas to life. We bring together experts across all AI domains - from image generation and video production to AI consulting and custom solution development. Whatever your project requires, you'll find the right professional here: AI voice artists for your podcasts, prompt engineers for perfect image creation, or developers to build smart chatbots.",
+                "title2": "Find Your Ideal Expert, Without Borders",
+                "text1": "Our platform makes your search effortless with a directory that's intelligently structured by specialization and professional background. This enables you to easily filter and choose the right specialist based on their expertise and the specific skills you're looking for. Since everything happens online, location is no barrier – you can access leading professionals from across the globe. The essence of what we offer is straightforward: connecting you with the perfect expert for your needs, wherever they might be. Your ideal professional match is now truly without boundaries."
+            },
+            "cardsSection": [
+                {
+                    "image": "/_18. AI.jpg",
+                    "href": "/services/ai-services/AI-Image-Generation"
+                },
+                {
+                    "image": "/_18. AI.jpg",
+                    "href": "/services/ai-services/AI-Video-Production"
+                },
+                {
+                    "image": "/_18. AI.jpg",
+                    "href": "/services/ai-services/AI-Consulting"
+                },
+                {
+                    "image": "/_18. AI.jpg",
+                    "href": "/services/ai-services/AI-Music-Composition"
+                },
+                {
+                    "image": "/_18. AI.jpg",
+                    "href": "/services/ai-services/AI-Voice-Generation"
+                }
+            ],
+            "photoSection": {
+                "image": "/_18. AI.jpg",
+                "heading": "Transform Your Ideas Into Reality With AI",
+                "text": "Discover the power of intelligent solutions and bring your creative visions to life. Our platform connects you with top AI experts ready to help you innovate, automate, and succeed in your projects."
+            }
+        },
+        "subServices": [
+            {
+                "name": "AI Image Generation",
+                "href": "/services/ai-services/AI-Image-Generation",
+                "banner": "/_18. AI.jpg",
+                "description": "Need stunning visuals for your brand, project, or social media? Our AI Image Generation service creates high-quality, custom images in seconds.",
+                "faqs": [
+                    {
+                        "question": "What is AI image generation?",
+                        "answer": "AI image generation uses artificial intelligence to create original images based on text prompts or ideas you provide."
+                    },
+                    {
+                        "question": "Can I customize the generated images?",
+                        "answer": "Yes, you can specify styles, colors, subjects, and more to tailor the output to your vision."
+                    },
+                    {
+                        "question": "What are the image resolution and format options?",
+                        "answer": "We can provide images in various resolutions (up to 4K) and formats like PNG, JPG, or WebP."
+                    },
+                    {
+                        "question": "Are the generated images copyright-free?",
+                        "answer": "Yes, all images generated are yours to use freely for personal or commercial purposes."
+                    },
+                    {
+                        "question": "How long does image generation take?",
+                        "answer": "Most images are generated within a few seconds to a minute, depending on complexity."
+                    }
+                ]
+            },
+            {
+                "name": "AI Video Production",
+                "href": "/services/ai-services/AI-Video-Production",
+                "banner": "/_18. AI.jpg",
+                "faqs": [
+                    {
+                        "question": "What is AI video production?",
+                        "answer": "AI video production uses artificial intelligence to create or edit videos automatically from scripts, images, or voiceovers."
+                    },
+                    {
+                        "question": "Can I customize the video style and content?",
+                        "answer": "Yes, you can choose video styles, themes, music, voiceovers, and specify visual details to match your brand."
+                    },
+                    {
+                        "question": "How long does it take to produce an AI video?",
+                        "answer": "Most short videos are generated in minutes, while complex projects may take a few hours."
+                    },
+                    {
+                        "question": "Are the videos suitable for commercial use?",
+                        "answer": "Absolutely. All AI-generated videos are licensed for personal and commercial use."
+                    },
+                    {
+                        "question": "Can I edit the generated video?",
+                        "answer": "Yes, revisions and visual/text edits can be requested after generation."
+                    }
+                ]
+            },
+            {
+                "name": "AI Voice Generation",
+                "href": "/services/ai-services/AI-Voice-Generation",
+                "banner": "/_18. AI.jpg",
+                "faqs": [
+                    {
+                        "question": "What is AI voice generation?",
+                        "answer": "AI voice generation uses artificial intelligence to create realistic human-like voices from text."
+                    },
+                    {
+                        "question": "Can I choose different accents?",
+                        "answer": "Yes, we offer multiple accents, tones, and voice styles."
+                    },
+                    {
+                        "question": "How long does it take?",
+                        "answer": "Most voice clips are generated instantly or within seconds."
+                    },
+                    {
+                        "question": "Can I use voices commercially?",
+                        "answer": "Yes, all generated voices can be used commercially."
+                    },
+                    {
+                        "question": "Can I control the emotion?",
+                        "answer": "Yes, you can adjust tone, pitch, speed, and emotion."
+                    }
+                ]
+            },
+            {
+                "name": "AI Music Composition",
+                "href": "/services/ai-services/AI-Music-Composition",
+                "banner": "/_18. AI.jpg",
+                "faqs": [
+                    {
+                        "question": "What is AI music composition?",
+                        "answer": "AI creates original melodies, harmonies, and full tracks in any style."
+                    },
+                    {
+                        "question": "Can I choose a genre?",
+                        "answer": "Yes, choose pop, classical, jazz, cinematic, ambient, and more."
+                    },
+                    {
+                        "question": "How long does it take?",
+                        "answer": "Most tracks generate in seconds to minutes."
+                    },
+                    {
+                        "question": "Commercial usage?",
+                        "answer": "Yes, you can use the music for videos, ads, games, etc."
+                    },
+                    {
+                        "question": "Can I customize the music?",
+                        "answer": "Yes, instruments, tempo, arrangement, and variations are editable."
+                    }
+                ]
+            },
+            {
+                "name": "AI Consulting",
+                "href": "/services/ai-services/AI-Consulting",
+                "banner": "/_18. AI.jpg",
+                "faqs": [
+                    {
+                        "question": "What is AI consulting?",
+                        "answer": "We help businesses use AI for automation, analytics, and strategic growth."
+                    },
+                    {
+                        "question": "Who can benefit?",
+                        "answer": "Startups, small businesses, and enterprises."
+                    },
+                    {
+                        "question": "What's included?",
+                        "answer": "Assessment, planning, strategy, tech recommendations, and implementation."
+                    },
+                    {
+                        "question": "Do you offer ongoing support?",
+                        "answer": "Yes, monitoring and long-term optimization."
+                    },
+                    {
+                        "question": "Is it customized?",
+                        "answer": "Yes, fully tailored for your goals and budget."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "DIGITAL PRODUCT DEVELOPMENT & BRANDING SERVICES",
+        title: "DIGITAL PRODUCT DEVELOPMENT & BRANDING SERVICES",
+        href: "/services/DIGITAL-DEVELOPMENT",
+        banner: "/_16. Digital Services.jpg",
+        description: "Hire a Tasker for help around the house",
+        banner: "/_16. Digital Services.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "Digital Product Development & Branding Services",
+                "description": "Digital products and branding open new horizons for your business! ",
+                "banner": "/_16. Digital Services.jpg"
+            },
+            "about": {
+                "title": "About Our Digital Services",
+                "text": "In today's market, investing in professional digital product development is one of the most strategic decisions a business can make. A well-designed website, a functional mobile app, and a cohesive brand identity are no longer optional—they are fundamental tools for reaching customers and driving growth. This approach provides a solid foundation for your business, ensuring you remain competitive and can effectively capitalize on new opportunities in the digital space. ",
+                "title2": "Find Your Ideal Expert, Without Borders! ",
+                "text1": "Our platform makes your search effortless with a directory that's intelligently structured by specialization and professional background. This enables you to easily filter and choose the right specialist based on their expertise and the specific skills you're looking for. Since everything happens online, location is no barrier – you can access leading professionals from across the globe. The essence of what we offer is straightforward: connecting you with the perfect expert for your needs, wherever they might be. "
+            },
+            "cardsSection": [
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/app-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/brand-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/fb-page-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/youtube-channel-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/instagram-channel-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/website-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/social-media-growth"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/special-offers-giveaways"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/influencer-promotions"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/chatbots-scripts"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/graphic-design"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/logo-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/online-store-development"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/video-advertisement-creation"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/video-motion-graphics"
+                },
+                {
+                    "image": "/2.png",
+                    "href": "/services/DIGITAL-DEVELOPMENT/other-digital-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_16. Digital Services.jpg",
+                "heading": "Take Your Digital Brand to the Next Level",
+                "text": "From app and website development to social media growth and branding, our experts ensure your digital products are not just built but thrive in the competitive market."
+            }
+        },
+        subServices: [
+            {
+                name: "App Development",
+                href: "/services/DIGITAL-DEVELOPMENT/app-development",
+                banner: "/Task01.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What platforms do you develop apps for?",
+                        answer: "We build apps for iOS, Android, and cross-platform frameworks like React Native and Flutter."
+                    },
+                    {
+                        question: "Can you customize the app design?",
+                        answer: "Yes, our team creates custom UI/UX designs tailored to your brand and user goals."
+                    },
+                    {
+                        question: "Do you help with app store deployment?",
+                        answer: "Absolutely, we handle publishing, optimization, and updates on both App Store and Google Play."
+                    },
+                    {
+                        question: "Can you integrate APIs or third-party tools?",
+                        answer: "Yes, we can integrate payment gateways, analytics, AI, chat, and other custom APIs."
+                    },
+                    {
+                        question: "Do you provide post-launch support?",
+                        answer: "Yes, we offer maintenance, performance monitoring, and future feature updates."
+                    }
+                ]
+            },
+            {
+                name: "Brand Development",
+                href: "/services/DIGITAL-DEVELOPMENT/brand-development",
+                banner: "/Task02.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What does brand development include?",
+                        answer: "It covers logo design, brand strategy, visual identity, and messaging guidelines."
+                    },
+                    {
+                        question: "Can you refresh an existing brand?",
+                        answer: "Yes, we specialize in rebranding to modernize your look while keeping your core values intact."
+                    },
+                    {
+                        question: "Do you provide brand kits?",
+                        answer: "Yes, we deliver full brand kits including fonts, colors, icons, and brand usage rules."
+                    },
+                    {
+                        question: "How long does the branding process take?",
+                        answer: "A typical project takes 1–3 weeks, depending on complexity and feedback rounds."
+                    },
+                    {
+                        question: "Can brand development help with marketing?",
+                        answer: "Yes, a consistent brand identity improves recognition and strengthens your marketing impact."
+                    }
+                ]
+            },
+            {
+                name: "FB Page Development & Boost",
+                href: "/services/DIGITAL-DEVELOPMENT/fb-page-development",
+                banner: "/Task03.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What does Facebook page development include?",
+                        answer: "We set up, optimize, and design your Facebook business page for maximum visibility and engagement."
+                    },
+                    {
+                        question: "Can you help grow my page followers?",
+                        answer: "Yes, we use organic and paid strategies to increase real followers and audience reach."
+                    },
+                    {
+                        question: "Do you manage ad campaigns?",
+                        answer: "Absolutely, we create and manage targeted Facebook Ads for better conversion and ROI."
+                    },
+                    {
+                        question: "Is boosting safe for my account?",
+                        answer: "Yes, all promotions comply with Facebook’s advertising policies to keep your account secure."
+                    },
+                    {
+                        question: "How soon will I see results?",
+                        answer: "You can expect noticeable engagement within the first few days of campaign launch."
+                    }
+                ]
+            },
+            {
+                name: "YouTube Channel Development & Boost",
+                href: "/services/DIGITAL-DEVELOPMENT/youtube-channel-development",
+                banner: "/Task04.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What is included in YouTube channel development?",
+                        answer: "We create, brand, and optimize your YouTube channel for SEO and audience engagement."
+                    },
+                    {
+                        question: "Can you help increase subscribers and views?",
+                        answer: "Yes, we use ethical growth strategies, SEO optimization, and targeted promotion."
+                    },
+                    {
+                        question: "Do you design channel art and thumbnails?",
+                        answer: "Yes, we create eye-catching thumbnails and professional banners to attract viewers."
+                    },
+                    {
+                        question: "Can you help with monetization?",
+                        answer: "Yes, we guide you through YouTube Partner Program setup and monetization eligibility."
+                    },
+                    {
+                        question: "How long does boosting take?",
+                        answer: "Growth results typically start appearing within 1–2 weeks depending on campaign size."
+                    }
+                ]
+            },
+            {
+                name: "Instagram Channel Development & Boost",
+                href: "/services/DIGITAL-DEVELOPMENT/instagram-channel-development",
+                banner: "/Task05.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What does Instagram development include?",
+                        answer: "We optimize your Instagram profile, content strategy, and hashtags for better visibility."
+                    },
+                    {
+                        question: "Can you grow real followers?",
+                        answer: "Yes, we focus on organic follower growth through engagement and targeted campaigns."
+                    },
+                    {
+                        question: "Do you design posts and reels?",
+                        answer: "Yes, we create high-quality visuals and short-form videos to match your brand style."
+                    },
+                    {
+                        question: "Is boosting engagement safe?",
+                        answer: "Yes, all our methods follow Instagram’s official guidelines to avoid penalties."
+                    },
+                    {
+                        question: "When can I expect growth?",
+                        answer: "Most accounts see engagement improvements within the first few days of boosting."
+                    }
+                ]
+            },
+            {
+                name: "Website Development & Boost",
+                href: "/services/DIGITAL-DEVELOPMENT/website-development",
+                banner: "/Task06.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What kind of websites do you build?",
+                        answer: "We develop responsive websites including business, e-commerce, portfolio, and landing pages."
+                    },
+                    {
+                        question: "Do you handle SEO optimization?",
+                        answer: "Yes, all our websites are SEO-friendly and optimized for Google search visibility."
+                    },
+                    {
+                        question: "Can you redesign my existing website?",
+                        answer: "Absolutely, we can revamp your current website for better performance and design."
+                    },
+                    {
+                        question: "Do you offer website maintenance?",
+                        answer: "Yes, we provide regular updates, backups, and technical support post-launch."
+                    },
+                    {
+                        question: "How long does development take?",
+                        answer: "Typical projects take between 1–4 weeks depending on complexity and requirements."
+                    }
+                ]
+            },
+            {
+                name: "Social Media Growth (Real Followers & Engagement)",
+                href: "/services/DIGITAL-DEVELOPMENT/social-media-growth",
+                banner: "/Task07.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "How do you grow social media followers?",
+                        answer: "We use organic engagement strategies, targeted content, and audience analysis for real growth."
+                    },
+                    {
+                        question: "Are the followers genuine?",
+                        answer: "Yes, all followers are real and active — we never use fake or bot accounts."
+                    },
+                    {
+                        question: "Which platforms do you support?",
+                        answer: "We offer growth services for Instagram, Facebook, YouTube, TikTok, and LinkedIn."
+                    },
+                    {
+                        question: "Can I track my growth progress?",
+                        answer: "Yes, you’ll receive detailed reports on followers, engagement, and audience insights."
+                    },
+                    {
+                        question: "Is my account safe during promotion?",
+                        answer: "Absolutely, all campaigns follow platform-safe and compliant growth practices."
+                    }
+                ]
+            },
+            {
+                name: "Special Offers & Giveaways",
+                href: "/services/DIGITAL-DEVELOPMENT/special-offers-giveaways",
+                banner: "/Task08.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What are special offers and giveaways?",
+                        answer: "They are promotional campaigns designed to attract new followers and increase engagement through prizes and offers."
+                    },
+                    {
+                        question: "Can you manage the entire giveaway?",
+                        answer: "Yes, we handle concept creation, design, promotion, and winner management."
+                    },
+                    {
+                        question: "Are giveaways safe and legitimate?",
+                        answer: "Yes, we ensure all promotions comply with platform rules and are fully transparent."
+                    },
+                    {
+                        question: "Do giveaways really help growth?",
+                        answer: "Yes, they can significantly boost reach, followers, and brand awareness quickly."
+                    },
+                    {
+                        question: "Can giveaways be run across multiple platforms?",
+                        answer: "Yes, we can launch coordinated campaigns across Instagram, Facebook, and YouTube."
+                    }
+                ]
+            },
+            {
+                name: "Influencer & Viral Promotions",
+                href: "/services/DIGITAL-DEVELOPMENT/influencer-promotions",
+                banner: "/Task09.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What are influencer promotions?",
+                        answer: "They involve collaboration with influencers to promote your product or brand to their audiences."
+                    },
+                    {
+                        question: "Do you find influencers for me?",
+                        answer: "Yes, we connect you with verified influencers suited to your niche and target market."
+                    },
+                    {
+                        question: "How do viral promotions work?",
+                        answer: "We create shareable, trend-based content designed to maximize reach and engagement."
+                    },
+                    {
+                        question: "Can I track influencer campaign results?",
+                        answer: "Yes, we provide analytics including impressions, reach, and conversion metrics."
+                    },
+                    {
+                        question: "Are influencer campaigns customizable?",
+                        answer: "Absolutely, we tailor each campaign’s strategy, budget, and content to your goals."
+                    }
+                ]
+            },
+            {
+                name: "Chatbots & Scripts",
+                href: "/services/DIGITAL-DEVELOPMENT/chatbots-scripts",
+                banner: "/Task10.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What are chatbots and automation scripts?",
+                        answer: "They are AI-powered tools that automate customer interactions, lead generation, and repetitive tasks."
+                    },
+                    {
+                        question: "Which platforms can chatbots be used on?",
+                        answer: "We can build bots for websites, Facebook, WhatsApp, Telegram, and other messaging platforms."
+                    },
+                    {
+                        question: "Can chatbots understand multiple languages?",
+                        answer: "Yes, our bots support multiple languages and can adapt their tone for your audience."
+                    },
+                    {
+                        question: "Do I need coding knowledge to use them?",
+                        answer: "No, we handle setup, training, and integration — you get a ready-to-use chatbot."
+                    },
+                    {
+                        question: "Can chatbots collect user data safely?",
+                        answer: "Yes, all chatbots follow strict data protection and privacy standards."
+                    }
+                ]
+            },
+            {
+                name: "Graphic Design",
+                href: "/services/DIGITAL-DEVELOPMENT/graphic-design",
+                banner: "/Task18.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What graphic design services do you offer?",
+                        answer: "We provide social media posts, brochures, business cards, flyers, and all types of digital and print designs."
+                    },
+                    {
+                        question: "Can you create designs for specific brand guidelines?",
+                        answer: "Yes, we strictly follow your brand colors, fonts, and style guide to ensure consistency."
+                    },
+                    {
+                        question: "Do you provide source files?",
+                        answer: "Yes, we deliver editable source files such as PSD, AI, or Figma files upon request."
+                    },
+                    {
+                        question: "How many design revisions are included?",
+                        answer: "Most packages include 2–3 free revisions to ensure your satisfaction."
+                    },
+                    {
+                        question: "What file formats do I receive?",
+                        answer: "You’ll get print-ready and web-optimized formats like PNG, JPG, PDF, or SVG."
+                    }
+                ]
+            },
+            {
+                name: "Logo Development",
+                href: "/services/DIGITAL-DEVELOPMENT/logo-development",
+                banner: "/Task19.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What types of logos do you design?",
+                        answer: "We design modern, minimal, typographic, emblem, and 3D logos tailored to your brand identity."
+                    },
+                    {
+                        question: "How long does it take to create a logo?",
+                        answer: "A typical logo design takes 2–5 days depending on the number of concepts and revisions."
+                    },
+                    {
+                        question: "Do you provide multiple concepts?",
+                        answer: "Yes, we usually offer several logo concepts to choose from before finalizing the design."
+                    },
+                    {
+                        question: "Can I request changes after delivery?",
+                        answer: "Yes, we provide revisions to fine-tune your logo until you’re fully satisfied."
+                    },
+                    {
+                        question: "Will I get full ownership of the logo?",
+                        answer: "Yes, you’ll receive complete rights and all high-resolution files for both print and web use."
+                    }
+                ]
+            },
+            {
+                name: "Online Store Development",
+                href: "/services/DIGITAL-DEVELOPMENT/online-store-development",
+                banner: "/Task20.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "Which platforms do you build online stores on?",
+                        answer: "We create e-commerce stores on Shopify, WooCommerce, Wix, and custom solutions."
+                    },
+                    {
+                        question: "Can you integrate payment gateways?",
+                        answer: "Yes, we set up secure payment gateways like PayPal, Stripe, and local options."
+                    },
+                    {
+                        question: "Do you provide product upload and management?",
+                        answer: "Absolutely, we handle product listing, categorization, and store setup."
+                    },
+                    {
+                        question: "Will my store be mobile-friendly?",
+                        answer: "Yes, all our stores are fully responsive and optimized for any device."
+                    },
+                    {
+                        question: "Do you offer SEO and speed optimization?",
+                        answer: "Yes, we optimize loading speed and implement SEO best practices to increase traffic and sales."
+                    }
+                ]
+            },
+            {
+                name: "Video Advertisement Creation",
+                href: "/services/DIGITAL-DEVELOPMENT/video-advertisement-creation",
+                banner: "/Task21.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What types of video ads can you produce?",
+                        answer: "We create promotional, explainer, product, and social media video ads in multiple styles."
+                    },
+                    {
+                        question: "Can you add voiceovers or subtitles?",
+                        answer: "Yes, we offer professional voiceovers in multiple languages and accurate subtitles."
+                    },
+                    {
+                        question: "Do you write scripts and storyboards?",
+                        answer: "Yes, our creative team handles everything from concept to final edit."
+                    },
+                    {
+                        question: "What video formats do you deliver?",
+                        answer: "We deliver in MP4, MOV, or custom formats optimized for YouTube, Instagram, or ads."
+                    },
+                    {
+                        question: "Can videos be customized to my brand?",
+                        answer: "Absolutely, we use your logo, color palette, and brand tone in every project."
+                    }
+                ]
+            },
+            {
+                name: "Video & Motion Graphics",
+                href: "/services/DIGITAL-DEVELOPMENT/video-and-motion-graphics",
+                banner: "/Task22.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What are motion graphics?",
+                        answer: "Motion graphics are animated visuals that combine text, shapes, and imagery to bring ideas to life."
+                    },
+                    {
+                        question: "What kind of motion projects do you handle?",
+                        answer: "We create intros, explainer animations, logo reveals, lower thirds, and promotional graphics."
+                    },
+                    {
+                        question: "Do you provide custom animations?",
+                        answer: "Yes, every animation is tailored to your brand style and communication goals."
+                    },
+                    {
+                        question: "What tools do you use for animation?",
+                        answer: "We use Adobe After Effects, Premiere Pro, and other industry-standard software."
+                    },
+                    {
+                        question: "Can I get videos in different aspect ratios?",
+                        answer: "Yes, we can export videos optimized for YouTube, Instagram, TikTok, and more."
+                    }
+                ]
+            },
+            {
+                name: "Other Digital Product Development & Branding Services",
+                href: "/services/DIGITAL-DEVELOPMENT/other-digital-services",
+                banner: "/Task23.webp",
+                parent: "digital-development",
+                faqs: [
+                    {
+                        question: "What additional services do you offer?",
+                        answer: "We offer custom digital solutions including AR filters, web tools, UI/UX design, and digital branding."
+                    },
+                    {
+                        question: "Can you handle complete brand campaigns?",
+                        answer: "Yes, we develop full campaigns that combine design, social media, and video marketing."
+                    },
+                    {
+                        question: "Do you offer white-label or partnership options?",
+                        answer: "Yes, agencies can partner with us under white-label agreements."
+                    },
+                    {
+                        question: "Can you help with app or website branding?",
+                        answer: "Absolutely, we create consistent brand experiences across all digital products."
+                    },
+                    {
+                        question: "Do you provide package deals?",
+                        answer: "Yes, we offer bundle discounts for multiple digital development or branding services."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "DIGITAL MARKETING",
+        title: "DIGITAL MARKETING",
+        href: "/services/DIGITAL-MARKETING",
+        description: "From the heavy lifting to unpacking and organizing make your move easy.",
+        banner: "/_17. Digital Marketing.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "Digital Marketing Services",
+                "description": "The Digital Advantage: Connect, Convert, and Grow",
+                "banner": "/_17. Digital Marketing.jpg"
+            },
+            "about": {
+                "title": "About Our Digital Marketing Services",
+                "text": "Digital marketing is essential for businesses to effectively connect with their audience online, driving growth and ensuring competitiveness in the modern marketplace. It enables precise targeting to reach potential customers based on demographics, interests, and behaviors, while providing measurable results that allow for real-time optimization of campaigns. By leveraging strategies like social media engagement, search engine optimization, and content creation, companies can build brand awareness, foster customer loyalty, and generate qualified leads. Ultimately, digital marketing transforms how businesses promote their products and services, delivering a strong return on investment by reaching the right people with the right message at the right time.",
+                "title2": "Find Your Ideal Expert, Without Borders! ",
+                "text1": "Our platform makes your search effortless with a directory that's intelligently structured by specialization and professional background. This enables you to easily filter and choose the right specialist based on their expertise and the specific skills you're looking for. Since everything happens online, location is no barrier – you can access leading professionals from across the globe. The essence of what we offer is straightforward: connecting you with the perfect expert for your needs, wherever they might be. "
+            },
+            "cardsSection": [
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/search-engine-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/content-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/influencer-affiliate-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/performance-growth-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/ecommerce-marketplace"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/mobile-app-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/data-driven-marketing"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/emerging-trends"
+                },
+                {
+                    "image": "/3.png",
+                    "href": "/services/DIGITAL-MARKETING/other-digital-marketing"
+                }
+            ],
+            "photoSection": {
+                "image": "/_17. Digital Marketing.jpg",
+                "heading": "Maximize Your Online Reach",
+                "text": "From social media growth and paid campaigns to SEO and content marketing, our digital marketing experts ensure your brand gets noticed, engages effectively, and converts prospects into loyal customers."
+            }
+        },
+        subServices: [
+            {
+                name: "Search Engine Marketing (SEM)",
+                href: "/services/DIGITAL-MARKETING/search-engine-marketing",
+                banner: "/Task01.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is Search Engine Marketing (SEM)?",
+                        answer: "SEM is a digital strategy that uses paid ads on search engines like Google to increase website visibility and traffic."
+                    },
+                    {
+                        question: "Do you manage Google Ads campaigns?",
+                        answer: "Yes, we create, manage, and optimize Google Ads for the best return on ad spend (ROAS)."
+                    },
+                    {
+                        question: "How quickly can I see results from SEM?",
+                        answer: "Results can appear within days, depending on your budget, competition, and targeting strategy."
+                    },
+                    {
+                        question: "Can SEM help with brand awareness?",
+                        answer: "Yes, SEM improves both visibility and brand recognition by placing your business in top search results."
+                    },
+                    {
+                        question: "Do you provide performance reports?",
+                        answer: "Absolutely, we deliver detailed reports showing impressions, clicks, conversions, and ROI."
+                    }
+                ]
+            },
+            {
+                name: "Search Engine Marketing (SEM)",
+                href: "/services/DIGITAL-MARKETING/search-engine-marketing",
+                banner: "/Task01.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is Search Engine Marketing (SEM)?",
+                        answer: "SEM is a digital strategy that uses paid ads on search engines like Google to increase website visibility and traffic."
+                    },
+                    {
+                        question: "Do you manage Google Ads campaigns?",
+                        answer: "Yes, we create, manage, and optimize Google Ads for the best return on ad spend (ROAS)."
+                    },
+                    {
+                        question: "How quickly can I see results from SEM?",
+                        answer: "Results can appear within days, depending on your budget, competition, and targeting strategy."
+                    },
+                    {
+                        question: "Can SEM help with brand awareness?",
+                        answer: "Yes, SEM improves both visibility and brand recognition by placing your business in top search results."
+                    },
+                    {
+                        question: "Do you provide performance reports?",
+                        answer: "Absolutely, we deliver detailed reports showing impressions, clicks, conversions, and ROI."
+                    }
+                ]
+            },
+            {
+                name: "Content Marketing",
+                href: "/services/DIGITAL-MARKETING/content-marketing",
+                banner: "/Task03.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What does content marketing include?",
+                        answer: "It includes blogs, articles, videos, infographics, and social media content that attract and retain customers."
+                    },
+                    {
+                        question: "Can you create SEO-friendly content?",
+                        answer: "Yes, all our content is optimized for search engines to improve rankings and visibility."
+                    },
+                    {
+                        question: "Do you provide content calendars?",
+                        answer: "Yes, we plan and schedule consistent, high-quality content aligned with your marketing goals."
+                    },
+                    {
+                        question: "Can you write content for specific industries?",
+                        answer: "Absolutely, our writers create tailored content for various niches and business types."
+                    },
+                    {
+                        question: "How do you measure content performance?",
+                        answer: "We use analytics to track engagement, traffic, and conversions generated from published content."
+                    }
+                ]
+            },
+            {
+                name: "Influencer & Affiliate Marketing",
+                href: "/services/DIGITAL-MARKETING/influencer-affiliate-marketing",
+                banner: "/Task04.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is influencer and affiliate marketing?",
+                        answer: "It’s a strategy that uses influencers and affiliates to promote your brand and drive real sales."
+                    },
+                    {
+                        question: "Do you connect brands with influencers?",
+                        answer: "Yes, we collaborate with verified influencers across platforms to match your target audience."
+                    },
+                    {
+                        question: "How do affiliate programs work?",
+                        answer: "Affiliates promote your products and earn a commission for each sale or lead they generate."
+                    },
+                    {
+                        question: "Can you track influencer performance?",
+                        answer: "Yes, we provide detailed metrics like reach, engagement, and conversions for every campaign."
+                    },
+                    {
+                        question: "Do you manage influencer contracts?",
+                        answer: "Yes, we handle communication, agreements, and deliverables to ensure smooth collaborations."
+                    }
+                ]
+            },
+            {
+                name: "Performance & Growth Marketing",
+                href: "/services/DIGITAL-MARKETING/performance-growth-marketing",
+                banner: "/Task05.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is performance marketing?",
+                        answer: "Performance marketing focuses on measurable actions like clicks, leads, or sales — ensuring ROI-based results."
+                    },
+                    {
+                        question: "Which channels do you use?",
+                        answer: "We use Google Ads, Meta Ads, YouTube, and programmatic platforms for optimal reach."
+                    },
+                    {
+                        question: "How do you measure campaign success?",
+                        answer: "We track KPIs such as cost per acquisition (CPA), return on ad spend (ROAS), and customer lifetime value."
+                    },
+                    {
+                        question: "Can you help scale existing campaigns?",
+                        answer: "Yes, we analyze performance data to identify growth opportunities and scale effectively."
+                    },
+                    {
+                        question: "Is growth marketing different from performance marketing?",
+                        answer: "Yes — growth marketing uses experimentation and analytics to achieve sustainable long-term growth."
+                    }
+                ]
+            },
+            {
+                name: "E-Commerce & Marketplace",
+                href: "/services/DIGITAL-MARKETING/ecommerce-marketplace",
+                banner: "/Task06.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What services do you offer for e-commerce businesses?",
+                        answer: "We manage online store marketing, product ads, SEO, and conversion rate optimization."
+                    },
+                    {
+                        question: "Do you work with Amazon and eBay stores?",
+                        answer: "Yes, we help optimize listings, run ad campaigns, and improve visibility on major marketplaces."
+                    },
+                    {
+                        question: "Can you improve my product rankings?",
+                        answer: "Yes, our strategies enhance product discoverability and drive more organic sales."
+                    },
+                    {
+                        question: "Do you handle retargeting campaigns?",
+                        answer: "Absolutely, we use retargeting to bring back visitors who didn’t convert initially."
+                    },
+                    {
+                        question: "Can you integrate analytics tools?",
+                        answer: "Yes, we implement tools like Google Analytics and Meta Pixel for performance tracking."
+                    }
+                ]
+            },
+            {
+                name: "Mobile & App Marketing",
+                href: "/services/DIGITAL-MARKETING/mobile-app-marketing",
+                banner: "/Task07.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is mobile app marketing?",
+                        answer: "It’s the process of promoting apps through user acquisition, retention, and engagement strategies."
+                    },
+                    {
+                        question: "Can you help increase app downloads?",
+                        answer: "Yes, we use ASO (App Store Optimization) and targeted ad campaigns to boost installs."
+                    },
+                    {
+                        question: "Do you promote both Android and iOS apps?",
+                        answer: "Yes, we manage campaigns for Google Play and the App Store simultaneously."
+                    },
+                    {
+                        question: "Do you offer push notification or in-app campaign support?",
+                        answer: "Yes, we optimize user engagement using personalized notifications and in-app experiences."
+                    },
+                    {
+                        question: "Can you track user retention rates?",
+                        answer: "Absolutely, we measure retention, churn, and engagement to maximize app performance."
+                    }
+                ]
+            },
+            {
+                name: "Data-Driven Marketing",
+                href: "/services/DIGITAL-MARKETING/data-driven-marketing",
+                banner: "/Task08.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What is data-driven marketing?",
+                        answer: "It’s a strategy that uses analytics and consumer insights to optimize campaigns and decision-making."
+                    },
+                    {
+                        question: "Which data tools do you use?",
+                        answer: "We use Google Analytics, Meta Business Suite, and CRM dashboards for tracking and insights."
+                    },
+                    {
+                        question: "Can you personalize campaigns based on data?",
+                        answer: "Yes, we tailor marketing content to user behavior and demographics for better conversions."
+                    },
+                    {
+                        question: "Do you provide monthly reports?",
+                        answer: "Yes, we deliver comprehensive performance reports with actionable recommendations."
+                    },
+                    {
+                        question: "Is data collected ethically?",
+                        answer: "Absolutely, we follow GDPR and privacy guidelines to ensure ethical and secure data handling."
+                    }
+                ]
+            },
+            {
+                name: "Emerging Trends",
+                href: "/services/DIGITAL-MARKETING/emerging-trends",
+                banner: "/Task09.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What are emerging trends in digital marketing?",
+                        answer: "They include AI marketing, AR/VR advertising, voice search optimization, and personalized automation."
+                    },
+                    {
+                        question: "Do you use AI in your marketing services?",
+                        answer: "Yes, we leverage AI for content generation, audience targeting, and campaign optimization."
+                    },
+                    {
+                        question: "Can you help implement new marketing technologies?",
+                        answer: "Absolutely, we assist with adopting modern tools and integrating them into your workflow."
+                    },
+                    {
+                        question: "Are these services experimental or proven?",
+                        answer: "We focus on tested innovations that offer measurable ROI and align with your goals."
+                    },
+                    {
+                        question: "Do you provide future trend insights?",
+                        answer: "Yes, our team keeps you updated on upcoming strategies that can benefit your business early."
+                    }
+                ]
+            },
+            {
+                name: "Other Digital Marketing",
+                href: "/services/DIGITAL-MARKETING/other-digital-marketing",
+                banner: "/Task10.webp",
+                parent: "digital-marketing",
+                faqs: [
+                    {
+                        question: "What other digital marketing services do you provide?",
+                        answer: "We offer custom strategies like video ads, remarketing, community management, and brand awareness campaigns."
+                    },
+                    {
+                        question: "Can you create a full digital marketing plan?",
+                        answer: "Yes, we build end-to-end strategies including SEO, SMM, and performance ads."
+                    },
+                    {
+                        question: "Do you work with small businesses?",
+                        answer: "Absolutely, we tailor marketing services to fit your goals and budget."
+                    },
+                    {
+                        question: "Can I combine multiple services?",
+                        answer: "Yes, you can create custom packages that include multiple marketing channels."
+                    },
+                    {
+                        question: "Do you offer consulting or training?",
+                        answer: "Yes, we provide consulting sessions and marketing training for in-house teams."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "BUSINESS SERVICES - VIRTUAL",
+        "title": "BUSINESS SERVICES - VIRTUAL",
+        "href": "/services/BUSINESS-SERVICES-VIRTUAL",
+        "description": "Get your furniture assembled quickly and easily.",
+        "banner": "/4.png",
+        "pageContent": {
+            "hero": {
+                "title": "BUSINESS SERVICES - VIRTUAL",
+                "description": "Virtual Business Services: The Smart Solution for Modern Businesses",
+                "banner": "/4.png"
+            },
+            "about": {
+                "title": "About Our Business Services - Virtual",
+                "text": "Virtual business services provide essential professional support for companies of all sizes seeking to optimize operations and maintain competitive advantage. From startups requiring legal and accounting foundations to established corporations needing scalable HR, call center, or security solutions, these services enable businesses to access specialized expertise without geographical constraints. Consulting and financial services drive strategic growth, while translation and real estate services facilitate global expansion—all allowing organizations to reduce overhead costs, focus on core competencies, and leverage professional capabilities on demand. This comprehensive ecosystem of remote business services creates the operational backbone for modern enterprises operating in digital economy.",
+                "title2": "Get expert help, without leaving your home.",
+                "text1": "Get expert business support, without leaving your office. Is it really possible to secure a top-tier accountant, strategic consultant, or dedicated HR team without the overhead of a full-time hire? Professionals bring enterprise-level expertise directly to you. This allows you to invest in your company's growth and manage your responsibilities from your workspace, saving precious time and capital for your core business objectives. From financial planning and legal compliance to international expansion, our experts are ready to help you scale efficiently."
+            },
+            "cardsSection": [
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/accounting-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/legal-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/real-estate-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/call-center-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/financial-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/consulting-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/hr-recruitment-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/security-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/translation-services"
+                },
+                {
+                    "image": "/4.png",
+                    "href": "/services/BUSINESS-SERVICES-VIRTUAL/other-business-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/4.png",
+                "heading": "Professional Virtual Business Services",
+                "text": "Our experts provide virtual solutions ranging from accounting, legal, real estate, call center, HR, and more to support your business efficiently."
+            }
+        },
+        "subServices": [
+            {
+                "name": "Accounting Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/accounting-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What accounting services do you offer?",
+                        "answer": "We offer bookkeeping, tax preparation, payroll management, and financial reporting services."
+                    },
+                    {
+                        "question": "Do you work with small or large businesses?",
+                        "answer": "We provide services for startups, small businesses, and large enterprises alike."
+                    },
+                    {
+                        "question": "Can you help with tax filing and compliance?",
+                        "answer": "Yes, we handle both corporate and individual tax compliance and filing."
+                    },
+                    {
+                        "question": "Is my financial data secure?",
+                        "answer": "Absolutely, we follow strict confidentiality and data protection policies."
+                    },
+                    {
+                        "question": "Do you provide cloud-based accounting support?",
+                        "answer": "Yes, we work with QuickBooks, Xero, and other cloud accounting software."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/legal-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What types of legal services do you offer?",
+                        "answer": "We provide contract drafting, compliance consulting, intellectual property, and business formation assistance."
+                    },
+                    {
+                        "question": "Do you offer virtual consultations?",
+                        "answer": "Yes, our legal experts can meet with you via video call or phone for convenience."
+                    },
+                    {
+                        "question": "Can you review contracts or agreements?",
+                        "answer": "Yes, we review and edit contracts to protect your business interests."
+                    },
+                    {
+                        "question": "Are your legal services confidential?",
+                        "answer": "Absolutely. All client information and cases are handled with strict confidentiality."
+                    },
+                    {
+                        "question": "Do you handle international legal matters?",
+                        "answer": "Yes, we assist with international business law and cross-border compliance."
+                    }
+                ]
+            },
+            {
+                "name": "Real Estate Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/real-estate-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What real estate services do you offer?",
+                        "answer": "We assist with property listings, virtual tours, documentation, and property management."
+                    },
+                    {
+                        "question": "Do you work with commercial and residential properties?",
+                        "answer": "Yes, we cover both commercial and residential real estate needs."
+                    },
+                    {
+                        "question": "Can you help with property valuation?",
+                        "answer": "Yes, we provide professional valuation and investment advisory services."
+                    },
+                    {
+                        "question": "Do you manage rental properties?",
+                        "answer": "Yes, we offer complete property management solutions including tenant handling and maintenance."
+                    },
+                    {
+                        "question": "Can you handle international property deals?",
+                        "answer": "Yes, we work with international clients for buying, selling, or investing abroad."
+                    }
+                ]
+            },
+            {
+                "name": "Call Center Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/call-center-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What types of call center services do you provide?",
+                        "answer": "We provide inbound, outbound, customer support, and lead generation services."
+                    },
+                    {
+                        "question": "Do you offer 24/7 support?",
+                        "answer": "Yes, we can operate round-the-clock depending on your business needs."
+                    },
+                    {
+                        "question": "Can you handle multiple languages?",
+                        "answer": "Yes, we provide multilingual call center solutions for global businesses."
+                    },
+                    {
+                        "question": "Do you provide remote agents?",
+                        "answer": "Absolutely, we have trained remote agents available for virtual operations."
+                    },
+                    {
+                        "question": "Can you integrate with my CRM?",
+                        "answer": "Yes, we integrate with most major CRMs to streamline operations."
+                    }
+                ]
+            },
+            {
+                "name": "Financial Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/financial-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What financial services do you offer?",
+                        "answer": "We provide investment planning, risk management, financial analysis, and advisory services."
+                    },
+                    {
+                        "question": "Do you assist with business budgeting?",
+                        "answer": "Yes, we create tailored financial plans and budgets for businesses of all sizes."
+                    },
+                    {
+                        "question": "Are your consultants certified?",
+                        "answer": "Yes, our team includes certified financial analysts and advisors."
+                    },
+                    {
+                        "question": "Do you handle personal financial planning?",
+                        "answer": "Yes, we provide both personal and corporate financial guidance."
+                    },
+                    {
+                        "question": "Is financial data kept confidential?",
+                        "answer": "Yes, we ensure 100% confidentiality and data security for all clients."
+                    }
+                ]
+            },
+            {
+                "name": "Consulting Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/consulting-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What areas do your consulting services cover?",
+                        "answer": "We offer business strategy, operations, digital transformation, and growth consulting."
+                    },
+                    {
+                        "question": "Do you provide virtual consulting sessions?",
+                        "answer": "Yes, we conduct consultations via Zoom, Teams, or other online platforms."
+                    },
+                    {
+                        "question": "Can you help startups and small businesses?",
+                        "answer": "Absolutely, we help new businesses build effective strategies and sustainable growth plans."
+                    },
+                    {
+                        "question": "Do you create business reports or audits?",
+                        "answer": "Yes, we provide performance audits and in-depth market analysis reports."
+                    },
+                    {
+                        "question": "Are your consulting packages customizable?",
+                        "answer": "Yes, our services are flexible and can be tailored to your business goals."
+                    }
+                ]
+            },
+            {
+                "name": "HR & Recruitment Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/hr-recruitment-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What HR and recruitment services do you provide?",
+                        "answer": "We offer talent sourcing, employee onboarding, HR consulting, and payroll management."
+                    },
+                    {
+                        "question": "Do you recruit internationally?",
+                        "answer": "Yes, we recruit professionals locally and globally depending on your needs."
+                    },
+                    {
+                        "question": "Can you manage remote workforce hiring?",
+                        "answer": "Yes, we specialize in virtual recruitment and remote employee onboarding."
+                    },
+                    {
+                        "question": "Do you offer background checks?",
+                        "answer": "Yes, we conduct professional background verification for all candidates."
+                    },
+                    {
+                        "question": "Can you assist with HR policy creation?",
+                        "answer": "Yes, we help businesses design and implement effective HR policies."
+                    }
+                ]
+            },
+            {
+                "name": "Security Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/security-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What types of security services do you provide?",
+                        "answer": "We offer digital, corporate, and physical security consulting and risk assessment."
+                    },
+                    {
+                        "question": "Do you provide cybersecurity solutions?",
+                        "answer": "Yes, we help secure your online assets, data, and infrastructure from threats."
+                    },
+                    {
+                        "question": "Can you perform risk analysis?",
+                        "answer": "Yes, we conduct in-depth risk and vulnerability assessments for businesses."
+                    },
+                    {
+                        "question": "Do you offer remote monitoring services?",
+                        "answer": "Yes, we provide virtual surveillance and IT security monitoring options."
+                    },
+                    {
+                        "question": "Are your services suitable for small businesses?",
+                        "answer": "Absolutely, we customize security solutions to fit any size organization."
+                    }
+                ]
+            },
+            {
+                "name": "Translation Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/translation-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What languages do you support?",
+                        "answer": "We translate documents and content into over 100 languages globally."
+                    },
+                    {
+                        "question": "Do you handle certified translations?",
+                        "answer": "Yes, we provide certified translations for legal, academic, and official documents."
+                    },
+                    {
+                        "question": "Can you translate websites or marketing materials?",
+                        "answer": "Yes, we handle business, technical, and creative content translations."
+                    },
+                    {
+                        "question": "Do you offer fast turnaround?",
+                        "answer": "Yes, we can deliver urgent translations within a few hours if needed."
+                    },
+                    {
+                        "question": "Is my information secure?",
+                        "answer": "Yes, we maintain strict confidentiality and use secure file handling."
+                    }
+                ]
+            },
+            {
+                "name": "Other Business Services",
+                "href": "/services/BUSINESS-SERVICES-VIRTUAL/other-business-services",
+                "banner": "/4.png",
+                "parent": "business-services-virtual",
+                "faqs": [
+                    {
+                        "question": "What other business services do you offer?",
+                        "answer": "We provide data entry, admin support, project management, and virtual assistance."
+                    },
+                    {
+                        "question": "Can I request a custom service?",
+                        "answer": "Yes, we offer customized business support solutions based on your needs."
+                    },
+                    {
+                        "question": "Do you offer monthly or retainer plans?",
+                        "answer": "Yes, flexible packages are available for ongoing support."
+                    },
+                    {
+                        "question": "Can I work across different time zones?",
+                        "answer": "Absolutely, our virtual teams operate globally and adapt to your schedule."
+                    },
+                    {
+                        "question": "Do you provide business process outsourcing (BPO)?",
+                        "answer": "Yes, we handle full-scale outsourcing for operations, HR, and customer support."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "CONSULT A SPECIALIST – LEGAL, REAL ESTATE & FINANCES - VIRTUAL",
+        "title": "CONSULT A SPECIALIST – LEGAL, REAL ESTATE & FINANCES - VIRTUAL",
+        "href": "/services/consult-specialist",
+        "description": "Expert help for mounting and installations.",
+        "banner": "/5.png",
+        "pageContent": {
+            "hero": {
+                "title": "CONSULT A SPECIALIST – LEGAL, REAL ESTATE & FINANCES - VIRTUAL",
+                "description": "Virtual consultations connect you with trusted specialists in law, real estate, and finance to guide you through life's most significant decisions.",
+                "banner": "/5.png"
+            },
+            "about": {
+                "title": "About Our Consult a Specialist Services",
+                "text": "From the comfort of your home or office, you can access expert advice tailored to your unique situation—whether you're navigating personal matters, business challenges, or planning for the future. Our platform eliminates geographical barriers, giving you the clarity and direction needed to make informed choices while protecting your interests. The remote format saves valuable time while delivering quality professional support exactly when you need it",
+                "title2": "Find the Right Specialist for Your Unique Situation",
+                "text1": "On our platform, you can find precisely the legal, financial, or real estate expert you need. Connect with legal professionals specializing in business incorporation, contracts, or family matters; financial advisors focused on retirement planning, tax optimization, or debt solutions; or real estate specialists ready to assist with buying, selling, and rental processes. Whatever challenge you're facing—from reviewing important documents to planning long-term strategies—you'll find professionals ready to help you protect your interests and achieve your goals with confidence."
+            },
+            "cardsSection": [
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/financial-consulting"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/accounting-consultations"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/real-estate-consultations"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/foreign-real-estate-investment"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/family-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/criminal-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/immigration-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/business-corporate-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/real-estate-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/employment-law"
+                },
+                {
+                    "image": "/5.png",
+                    "href": "/services/consult-specialist/other-specialist-consultations"
+                }
+            ],
+            "photoSection": {
+                "image": "/5.png",
+                "heading": "Professional Virtual Specialist Consultations",
+                "text": "Get expert advice from certified specialists in finance, accounting, real estate, and law, all delivered virtually for your convenience."
+            }
+        },
+        "subServices": [
+            {
+                "name": "Financial consulting (Mortgage, RRSP, RESP, Investment)",
+                "href": "/services/consult-specialist/financial-consulting",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What types of financial advice do you provide?",
+                        "answer": "We provide advice on mortgages, RRSPs, RESPs, investments, and retirement planning."
+                    },
+                    {
+                        "question": "Do you offer personalized financial plans?",
+                        "answer": "Yes, our specialists tailor plans according to your goals and risk profile."
+                    },
+                    {
+                        "question": "Can I consult online?",
+                        "answer": "Yes, consultations are available virtually via video or phone call."
+                    },
+                    {
+                        "question": "Is there a fee for consultation?",
+                        "answer": "Fees vary based on the service; detailed pricing is provided upon booking."
+                    },
+                    {
+                        "question": "Are consultations confidential?",
+                        "answer": "Yes, all discussions are private and secure."
+                    }
+                ]
+            },
+            {
+                "name": "Accounting Consultations",
+                "href": "/services/consult-specialist/accounting-consultations",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What accounting services do you offer?",
+                        "answer": "We provide bookkeeping, tax planning, audits, and financial reporting guidance."
+                    },
+                    {
+                        "question": "Do I need to bring my financial documents?",
+                        "answer": "Yes, providing documents helps the Tasker give accurate advice."
+                    },
+                    {
+                        "question": "Can you help with tax filing?",
+                        "answer": "Yes, we guide you through personal and business tax filing requirements."
+                    },
+                    {
+                        "question": "Is online consultation available?",
+                        "answer": "Yes, virtual meetings are supported."
+                    },
+                    {
+                        "question": "Are consultations secure?",
+                        "answer": "Yes, all information is handled confidentially."
+                    }
+                ]
+            },
+            {
+                "name": "Real Estate Consultations",
+                "href": "/services/consult-specialist/real-estate-consultations",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What real estate services do you provide?",
+                        "answer": "We provide buying, selling, rental advice, and property investment guidance."
+                    },
+                    {
+                        "question": "Do you assist with foreign property?",
+                        "answer": "Yes, we can guide investment in foreign real estate."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, we provide virtual consultations."
+                    },
+                    {
+                        "question": "Do I need documents or property info?",
+                        "answer": "Yes, providing details helps our specialists give accurate advice."
+                    },
+                    {
+                        "question": "Are services confidential?",
+                        "answer": "Yes, all discussions are private."
+                    }
+                ]
+            },
+            {
+                "name": "Real Estate - Investment in Foreign Real Estate",
+                "href": "/services/consult-specialist/foreign-real-estate-investment",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "Can you guide investment in any country?",
+                        "answer": "Yes, we provide advice on international property investments."
+                    },
+                    {
+                        "question": "Do you provide legal guidance?",
+                        "answer": "Yes, our specialists advise on laws and regulations in the target country."
+                    },
+                    {
+                        "question": "Are consultations online?",
+                        "answer": "Yes, virtual consultations are available."
+                    },
+                    {
+                        "question": "Is market research included?",
+                        "answer": "Yes, we provide market insights for your investment decisions."
+                    },
+                    {
+                        "question": "Are consultations secure?",
+                        "answer": "Yes, confidentiality is ensured."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Family Law (Divorce, child custody, alimony)",
+                "href": "/services/consult-specialist/family-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What family law issues can be consulted on?",
+                        "answer": "Divorce, child custody, alimony, and related matters."
+                    },
+                    {
+                        "question": "Can consultations be virtual?",
+                        "answer": "Yes, online consultations are available."
+                    },
+                    {
+                        "question": "Are consultations confidential?",
+                        "answer": "Yes, all discussions are private."
+                    },
+                    {
+                        "question": "Do you provide representation in court?",
+                        "answer": "We provide legal advice; representation depends on local regulations."
+                    },
+                    {
+                        "question": "Can you help with documentation?",
+                        "answer": "Yes, we assist with preparing legal documents."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Criminal Law (Defense strategies, bail hearings)",
+                "href": "/services/consult-specialist/criminal-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What types of criminal cases do you handle?",
+                        "answer": "Defense strategies, bail hearings, and criminal charges."
+                    },
+                    {
+                        "question": "Can I consult online?",
+                        "answer": "Yes, consultations are available virtually."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, privacy is strictly maintained."
+                    },
+                    {
+                        "question": "Do you provide court representation?",
+                        "answer": "Advice is provided; representation depends on local regulations."
+                    },
+                    {
+                        "question": "Can you help with documentation?",
+                        "answer": "Yes, including filings and defense-related documents."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Immigration Law (Visa, residency, citizenship issues)",
+                "href": "/services/consult-specialist/immigration-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "Which immigration matters are covered?",
+                        "answer": "Visas, residency, citizenship, and immigration compliance issues."
+                    },
+                    {
+                        "question": "Are virtual consultations available?",
+                        "answer": "Yes, you can consult online."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, all information is private."
+                    },
+                    {
+                        "question": "Can you help with application documents?",
+                        "answer": "Yes, we assist in preparing and reviewing documents."
+                    },
+                    {
+                        "question": "Do you provide guidance for multiple countries?",
+                        "answer": "Yes, depending on the regulations of the target country."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Business & Corporate Law",
+                "href": "/services/consult-specialist/business-corporate-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What business legal services are offered?",
+                        "answer": "Contracts, compliance, corporate formation, and disputes."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, virtual meetings are available."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, privacy is guaranteed."
+                    },
+                    {
+                        "question": "Do you assist with documentation?",
+                        "answer": "Yes, we can review and prepare corporate documents."
+                    },
+                    {
+                        "question": "Do you offer advice for startups?",
+                        "answer": "Yes, specialized guidance for startups and small businesses."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Real Estate Law (Purchase agreements, Rent, disputes)",
+                "href": "/services/consult-specialist/real-estate-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What real estate legal services are provided?",
+                        "answer": "Purchase agreements, rental issues, property disputes, and compliance."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, virtual consultations are available."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, privacy is ensured."
+                    },
+                    {
+                        "question": "Do you assist with contracts?",
+                        "answer": "Yes, we review and draft property-related contracts."
+                    },
+                    {
+                        "question": "Can you advise on international real estate?",
+                        "answer": "Yes, for cross-border property matters."
+                    }
+                ]
+            },
+            {
+                "name": "Legal Consultations - Employment Law (Wrongful dismissal, workplace harassment)",
+                "href": "/services/consult-specialist/employment-law",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What employment issues are covered?",
+                        "answer": "Wrongful dismissal, workplace harassment, discrimination, and contracts."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, virtual meetings are available."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, all discussions are private."
+                    },
+                    {
+                        "question": "Do you provide legal documentation?",
+                        "answer": "Yes, assistance with employment contracts and filings is included."
+                    },
+                    {
+                        "question": "Do you advise on labor laws?",
+                        "answer": "Yes, we provide guidance according to local labor laws."
+                    }
+                ]
+            },
+            {
+                "name": "Other Specialist consultations",
+                "href": "/services/consult-specialist/other-specialist-consultations",
+                "banner": "/5.png",
+                "faqs": [
+                    {
+                        "question": "What other consultations are offered?",
+                        "answer": "Various specialized services beyond legal, financial, and real estate areas."
+                    },
+                    {
+                        "question": "Are virtual consultations available?",
+                        "answer": "Yes, online meetings are supported."
+                    },
+                    {
+                        "question": "Is consultation confidential?",
+                        "answer": "Yes, privacy is maintained."
+                    },
+                    {
+                        "question": "Can consultations be customized?",
+                        "answer": "Yes, services are tailored to your specific needs."
+                    },
+                    {
+                        "question": "Do you provide follow-up guidance?",
+                        "answer": "Yes, follow-ups and advice are available as needed."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "MEDICAL WELLNESS SERVIES - VIRTUAL",
+        "title": "MEDICAL WELLNESS SERVIES - VIRTUAL",
+        "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL",
+        "description": "Taskers will make your home sparkle!",
+        "banner": "/6.png",
+        "pageContent": {
+            "hero": {
+                "title": "MEDICAL WELLNESS SERVIES - VIRTUAL",
+                "description": "Virtual consultations connect you with trusted specialists in health and wellness to guide you toward better living.",
+                "banner": "/6.png"
+            },
+            "about": {
+                "title": "About Our Medical Wellness Services",
+                "text": "",
+                "title2": "",
+                "text1": ""
+            },
+            "cardsSection": [
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/primary-care"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/mental-health-therapy"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/psychology-consultation"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/nutrition-dietitian"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/physical-therapy"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/fertility-sexual-health"
+                },
+                {
+                    "image": "/6.png",
+                    "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/other-specialists"
+                }
+            ],
+            "photoSection": {
+                "image": "/6.png",
+                "heading": "Professional Virtual Medical Consultations",
+                "text": "Access expert guidance from certified medical and wellness professionals, all delivered virtually for your convenience."
+            }
+        },
+        "subServices": [
+            {
+                "name": "Primary Care Consultations (General health, prescriptions)",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/primary-care",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What conditions do you treat?",
+                        "answer": "We handle general health issues, routine check-ups, and prescription management."
+                    },
+                    {
+                        "question": "Can I book online?",
+                        "answer": "Yes, virtual consultations are available."
+                    },
+                    {
+                        "question": "Do you provide prescriptions?",
+                        "answer": "Yes, necessary prescriptions are issued during consultation."
+                    },
+                    {
+                        "question": "Are consultations confidential?",
+                        "answer": "Yes, all patient information is private."
+                    },
+                    {
+                        "question": "Do you offer follow-up appointments?",
+                        "answer": "Yes, follow-ups can be scheduled as needed."
+                    }
+                ]
+            },
+            {
+                "name": "Mental Health Therapy (Anxiety, depression, PTSD)",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/mental-health-therapy",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What therapy methods are offered?",
+                        "answer": "We provide counseling, CBT, and other therapy approaches for mental health."
+                    },
+                    {
+                        "question": "Can sessions be online?",
+                        "answer": "Yes, virtual therapy sessions are supported."
+                    },
+                    {
+                        "question": "Is therapy confidential?",
+                        "answer": "Yes, all sessions are private and secure."
+                    },
+                    {
+                        "question": "Do you offer crisis support?",
+                        "answer": "Yes, we provide guidance and support for urgent mental health issues."
+                    },
+                    {
+                        "question": "Can therapy be recurring?",
+                        "answer": "Yes, regular therapy schedules can be arranged."
+                    }
+                ]
+            },
+            {
+                "name": "Psychology Consultation",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/psychology-consultation",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What issues can I consult for?",
+                        "answer": "Behavioral, emotional, cognitive assessments, and personal guidance."
+                    },
+                    {
+                        "question": "Are online consultations available?",
+                        "answer": "Yes, virtual sessions are supported."
+                    },
+                    {
+                        "question": "Is my information confidential?",
+                        "answer": "Yes, all consultations are private."
+                    },
+                    {
+                        "question": "Do you provide psychological assessments?",
+                        "answer": "Yes, formal evaluations can be conducted."
+                    },
+                    {
+                        "question": "Can I get a referral if needed?",
+                        "answer": "Yes, referrals to specialists or therapists are available."
+                    }
+                ]
+            },
+            {
+                "name": "Nutrition/Dietitian (Weight loss, meal plans)",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/nutrition-dietitian",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What dietary guidance is offered?",
+                        "answer": "Weight management, meal planning, and nutrition counseling."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, virtual dietitian sessions are available."
+                    },
+                    {
+                        "question": "Do you provide meal plans?",
+                        "answer": "Yes, personalized meal plans are provided."
+                    },
+                    {
+                        "question": "Are consultations confidential?",
+                        "answer": "Yes, all dietary consultations are private."
+                    },
+                    {
+                        "question": "Can I schedule follow-up sessions?",
+                        "answer": "Yes, recurring consultations can be arranged."
+                    }
+                ]
+            },
+            {
+                "name": "Physical Therapy (Post-injury rehab guidance)",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/physical-therapy",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What conditions do you treat?",
+                        "answer": "Post-injury rehab, mobility improvement, and pain management."
+                    },
+                    {
+                        "question": "Are sessions in-person or online?",
+                        "answer": "We provide both virtual and in-person sessions."
+                    },
+                    {
+                        "question": "Do I need prior medical records?",
+                        "answer": "Yes, sharing medical history helps provide accurate guidance."
+                    },
+                    {
+                        "question": "Are sessions personalized?",
+                        "answer": "Yes, exercises and therapy are customized per patient."
+                    },
+                    {
+                        "question": "Is follow-up guidance available?",
+                        "answer": "Yes, ongoing support and adjustments are provided."
+                    }
+                ]
+            },
+            {
+                "name": "Fertility/Sexual Health",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/fertility-sexual-health",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What services are offered?",
+                        "answer": "Fertility guidance, sexual health consultations, and reproductive advice."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, virtual consultations are available."
+                    },
+                    {
+                        "question": "Is information confidential?",
+                        "answer": "Yes, all consultations are private."
+                    },
+                    {
+                        "question": "Do you provide treatment plans?",
+                        "answer": "Yes, personalized plans and advice are provided."
+                    },
+                    {
+                        "question": "Can follow-ups be scheduled?",
+                        "answer": "Yes, recurring consultations are supported."
+                    }
+                ]
+            },
+            {
+                "name": "Other Wellness Specialists",
+                "href": "/services/MEDICAL-WELLNESS-SERVIES-VIRTUAL/other-specialists",
+                "banner": "/6.png",
+                "faqs": [
+                    {
+                        "question": "What other wellness services are available?",
+                        "answer": "Various specialized health and wellness services beyond primary care and therapy."
+                    },
+                    {
+                        "question": "Can consultations be online?",
+                        "answer": "Yes, online sessions are supported."
+                    },
+                    {
+                        "question": "Is consultation private?",
+                        "answer": "Yes, all information is confidential."
+                    },
+                    {
+                        "question": "Can services be customized?",
+                        "answer": "Yes, sessions are tailored to your needs."
+                    },
+                    {
+                        "question": "Do you provide follow-up support?",
+                        "answer": "Yes, ongoing guidance is available as needed."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "MEDICAL WELLNESS SERVIES – IN PERSON",
+        title: "MEDICAL WELLNESS SERVIES – IN PERSON",
+        href: "/services/MEDICAL-WELLNESS-PERSON",
+        description: "Get your shopping & deliveries done fast.",
+        banner: "/_15. Medical Person.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "MEDICAL WELLNESS SERVIES – IN PERSON",
+                "description": "In-person consultations connect you with trusted medical and wellness specialists for personalized care and guidance.",
+                "banner": "/_15. Medical Person.jpg"
+            },
+            "about": {
+                "title": "About Our In-Person Medical Wellness Services",
+                "text": "",
+                "title2": "",
+                "text1": ""
+            },
+            "cardsSection": [
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/primary-care"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/mental-behavioral-health"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/psychology-consultation"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/nutrition-dietitian"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/physical-therapy"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/womens-mens-health"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/pain-management"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/fitness-metabolic-health"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/diagnostic-specialty-services"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/wellness-experiences"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/pediatric-family-wellness"
+                },
+                {
+                    "image": "/7.png",
+                    "href": "/services/MEDICAL-WELLNESS-PERSON/other-specialists"
+                }
+            ],
+            "photoSection": {
+                "image": "/_15. Medical Person.jpg  ",
+                "heading": "Professional In-Person Medical Consultations",
+                "text": "Access expert guidance from certified medical and wellness professionals, all delivered in-person for personalized care and support."
+            }
+        },
+        subServices: [
+            {
+                name: "Primary Care & Preventive Health",
+                href: "/services/MEDICAL-WELLNESS-PERSON/primary-care",
+                faqs: [
+                    {
+                        question: "What services are offered?",
+                        answer: "Routine check-ups, vaccinations, and preventive screenings."
+                    },
+                    {
+                        question: "Can I book online?",
+                        answer: "Yes, virtual or in-person appointments are available."
+                    },
+                    {
+                        question: "Do you provide prescriptions?",
+                        answer: "Yes, necessary prescriptions are issued during consultations."
+                    },
+                    {
+                        question: "Are consultations confidential?",
+                        answer: "Yes, all patient information is private."
+                    },
+                    {
+                        question: "Can I schedule follow-ups?",
+                        answer: "Yes, follow-up visits are available as needed."
+                    }
+                ]
+            },
+            {
+                name: "Mental & Behavioral Health",
+                href: "/services/MEDICAL-WELLNESS-PERSON/mental-behavioral-health",
+                faqs: [
+                    {
+                        question: "What conditions do you treat?",
+                        answer: "Anxiety, depression, PTSD, and behavioral issues."
+                    },
+                    {
+                        question: "Are sessions available online?",
+                        answer: "Yes, virtual consultations are supported."
+                    },
+                    {
+                        question: "Is therapy confidential?",
+                        answer: "Yes, all sessions are private and secure."
+                    },
+                    {
+                        question: "Can therapy be recurring?",
+                        answer: "Yes, recurring sessions are available."
+                    },
+                    {
+                        question: "Do you provide crisis support?",
+                        answer: "Yes, urgent mental health support is available."
+                    }
+                ]
+            },
+            {
+                name: "Psychology Consultation",
+                href: "/services/MEDICAL-WELLNESS-PERSON/psychology-consultation",
+                faqs: [
+                    {
+                        question: "What issues can I consult for?",
+                        answer: "Behavioral, emotional, and cognitive concerns."
+                    },
+                    {
+                        question: "Are online consultations available?",
+                        answer: "Yes, virtual sessions are supported."
+                    },
+                    {
+                        question: "Is my information confidential?",
+                        answer: "Yes, all consultations are private."
+                    },
+                    {
+                        question: "Do you provide psychological assessments?",
+                        answer: "Yes, formal evaluations can be conducted."
+                    },
+                    {
+                        question: "Can I get referrals if needed?",
+                        answer: "Yes, referrals to specialists or therapists are available."
+                    }
+                ]
+            },
+            {
+                name: "Nutrition/Dietitian (Weight loss, meal plans)",
+                href: "/services/MEDICAL-WELLNESS-PERSON/nutrition-dietitian",
+                faqs: [
+                    {
+                        question: "What guidance is offered?",
+                        answer: "Weight management, meal planning, and nutrition counseling."
+                    },
+                    {
+                        question: "Can consultations be online?",
+                        answer: "Yes, virtual dietitian sessions are available."
+                    },
+                    {
+                        question: "Do you provide meal plans?",
+                        answer: "Yes, personalized meal plans are provided."
+                    },
+                    {
+                        question: "Are consultations confidential?",
+                        answer: "Yes, all dietary consultations are private."
+                    },
+                    {
+                        question: "Can follow-ups be scheduled?",
+                        answer: "Yes, recurring consultations are supported."
+                    }
+                ]
+            },
+            {
+                name: "Physical Therapy (Post-injury rehab guidance)",
+                href: "/services/MEDICAL-WELLNESS-PERSON/physical-therapy",
+                faqs: [
+                    {
+                        question: "What conditions do you treat?",
+                        answer: "Post-injury rehab, mobility improvement, and pain management."
+                    },
+                    {
+                        question: "Are sessions in-person or online?",
+                        answer: "We provide both virtual and in-person sessions."
+                    },
+                    {
+                        question: "Do I need prior medical records?",
+                        answer: "Yes, sharing medical history helps provide accurate guidance."
+                    },
+                    {
+                        question: "Are sessions personalized?",
+                        answer: "Yes, exercises and therapy are customized per patient."
+                    },
+                    {
+                        question: "Is follow-up support available?",
+                        answer: "Yes, ongoing guidance and adjustments are provided."
+                    }
+                ]
+            },
+            {
+                name: "Women’s & Men’s Health",
+                href: "/services/MEDICAL-WELLNESS-PERSON/womens-mens-health",
+                faqs: [
+                    {
+                        question: "What services are included?",
+                        answer: "Routine health screenings, reproductive health, and wellness guidance."
+                    },
+                    {
+                        question: "Are appointments confidential?",
+                        answer: "Yes, all consultations are private."
+                    },
+                    {
+                        question: "Can I schedule check-ups online?",
+                        answer: "Yes, virtual or in-person appointments are available."
+                    },
+                    {
+                        question: "Do you provide treatment plans?",
+                        answer: "Yes, personalized treatment and guidance are available."
+                    },
+                    {
+                        question: "Are follow-up visits supported?",
+                        answer: "Yes, follow-ups can be scheduled as needed."
+                    }
+                ]
+            },
+            {
+                name: "Pain Management",
+                href: "/services/MEDICAL-WELLNESS-PERSON/pain-management",
+                faqs: [
+                    {
+                        question: "What types of pain are treated?",
+                        answer: "Chronic, acute, musculoskeletal, and post-injury pain."
+                    },
+                    {
+                        question: "Are treatments personalized?",
+                        answer: "Yes, all pain management plans are tailored individually."
+                    },
+                    {
+                        question: "Can consultations be online?",
+                        answer: "Yes, virtual sessions are available."
+                    },
+                    {
+                        question: "Do you offer therapy or medication?",
+                        answer: "Yes, a combination of therapies and prescribed medications are provided."
+                    },
+                    {
+                        question: "Is follow-up care available?",
+                        answer: "Yes, ongoing support and adjustments are provided."
+                    }
+                ]
+            },
+            {
+                name: "Fitness & Metabolic Health",
+                href: "/services/MEDICAL-WELLNESS-PERSON/fitness-metabolic-health",
+                faqs: [
+                    {
+                        question: "What services are offered?",
+                        answer: "Fitness assessments, metabolic testing, and personalized workout plans."
+                    },
+                    {
+                        question: "Can I book virtual sessions?",
+                        answer: "Yes, online consultations and coaching are available."
+                    },
+                    {
+                        question: "Are plans customized?",
+                        answer: "Yes, plans are tailored to your health and fitness goals."
+                    },
+                    {
+                        question: "Do you monitor progress?",
+                        answer: "Yes, regular check-ins and progress tracking are provided."
+                    },
+                    {
+                        question: "Can follow-ups be scheduled?",
+                        answer: "Yes, recurring sessions are supported."
+                    }
+                ]
+            },
+            {
+                name: "Diagnostic & Specialty Services",
+                href: "/services/MEDICAL-WELLNESS-PERSON/diagnostic-specialty-services",
+                faqs: [
+                    {
+                        question: "What diagnostics are available?",
+                        answer: "Lab tests, imaging, and specialized health screenings."
+                    },
+                    {
+                        question: "Are results shared securely?",
+                        answer: "Yes, all results are private and confidential."
+                    },
+                    {
+                        question: "Can appointments be booked online?",
+                        answer: "Yes, virtual scheduling is supported."
+                    },
+                    {
+                        question: "Are specialists available?",
+                        answer: "Yes, various medical specialists are accessible."
+                    },
+                    {
+                        question: "Can follow-ups be scheduled?",
+                        answer: "Yes, follow-up consultations are available."
+                    }
+                ]
+            },
+            {
+                name: "Wellness Experiences",
+                href: "/services/MEDICAL-WELLNESS-PERSON/wellness-experiences",
+                faqs: [
+                    {
+                        question: "What experiences are offered?",
+                        answer: "Spa treatments, meditation sessions, yoga, and holistic therapies."
+                    },
+                    {
+                        question: "Are sessions in-person?",
+                        answer: "Yes, all experiences are conducted in-person."
+                    },
+                    {
+                        question: "Can I book group or private sessions?",
+                        answer: "Yes, both options are available."
+                    },
+                    {
+                        question: "Are sessions customized?",
+                        answer: "Yes, experiences can be tailored to your preferences."
+                    },
+                    {
+                        question: "Is follow-up guidance provided?",
+                        answer: "Yes, ongoing wellness support is offered."
+                    }
+                ]
+            },
+            {
+                name: "Pediatric & Family Wellness",
+                href: "/services/MEDICAL-WELLNESS-PERSON/pediatric-family-wellness",
+                faqs: [
+                    {
+                        question: "What services are provided?",
+                        answer: "Child health check-ups, family wellness consultations, and preventive care."
+                    },
+                    {
+                        question: "Are appointments confidential?",
+                        answer: "Yes, all consultations are private."
+                    },
+                    {
+                        question: "Can sessions be online?",
+                        answer: "Yes, virtual consultations are available."
+                    },
+                    {
+                        question: "Do you offer vaccination guidance?",
+                        answer: "Yes, vaccination and preventive care guidance is provided."
+                    },
+                    {
+                        question: "Can follow-ups be scheduled?",
+                        answer: "Yes, recurring family wellness sessions are supported."
+                    }
+                ]
+            },
+            {
+                name: "Other Wellness Specialists",
+                href: "/services/MEDICAL-WELLNESS-PERSON/other-specialists",
+                faqs: [
+                    {
+                        question: "What other services are offered?",
+                        answer: "Various specialized wellness services beyond the categories listed."
+                    },
+                    {
+                        question: "Can sessions be online?",
+                        answer: "Yes, online consultations are supported."
+                    },
+                    {
+                        question: "Is consultation confidential?",
+                        answer: "Yes, all information is private."
+                    },
+                    {
+                        question: "Are sessions personalized?",
+                        answer: "Yes, services are tailored to your needs."
+                    },
+                    {
+                        question: "Do you provide follow-up support?",
+                        answer: "Yes, ongoing guidance is available as needed."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "BEAUTY SERVICES – IN PERSON",
+        "title": "BEAUTY SERVICES – IN PERSON",
+        "href": "/services/BEAUTY-SERVICES-IN-PERSON",
+        "description": "Taskers help with your Ikea needs.",
+        "banner": "/8.png",
+        "pageContent": {
+            "hero": {
+                "title": "BEAUTY SERVICES – IN PERSON",
+                "description": "Find Your Perfect Beauty Match in Your Area",
+                "banner": "/8.png"
+            },
+            "about": {
+                "title": "About Our In-Person Beauty Services",
+                "text": "Our platform is designed to connect you with a diverse network of highly-skilled beauty professionals right in your neighborhood. We know that the right expert is out there for everyone, which is why we offer a wide range of specialists—from master colorists and precision barbers to licensed estheticians and bridal makeup artists. Our easy-to-use search tool helps you quickly discover local talent, ensuring you can find convenience without compromising on quality.",
+                "title2": "A Curated Directory, Designed for Your Needs",
+                "text1": "Navigating your options is simple with our systematically organized directory. We go beyond a basic list by allowing you to filter professionals based on their specific specialization, verified skills, and proximity to you. This thoughtful structure empowers you to make an informed choice, selecting your ideal specialist based on a clear picture of their professionalism, their exact services, and a location that suits you best."
+            },
+            "cardsSection": [
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/hair-care-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/skin-care-facial-treatments"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/nail-care-manicure-pedicure"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/makeup-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/hair-removal-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/massage-body-treatments"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/permanent-makeup-cosmetic-tattooing"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/spa-wellness-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/medical-aesthetics-advanced-treatments"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/mens-grooming-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/eyelash-eyebrow-services"
+                },
+                {
+                    "image": "/8.png",
+                    "href": "/services/BEAUTY-SERVICES-IN-PERSON/alternative-holistic-beauty-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/8.png",
+                "heading": "Professional In-Person Beauty Services",
+                "text": "Receive expert beauty care from trained specialists, all conducted in-person for personalized attention and results."
+            }
+        },
+        "subServices": [
+            {
+                "name": "Hair Care Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/hair-care-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "Do Taskers provide haircuts and styling?",
+                        "answer": "Yes, including trims, layers, blow-dry, and styling."
+                    },
+                    {
+                        "question": "Do I need to provide hair products?",
+                        "answer": "No, Taskers bring professional products if needed."
+                    },
+                    {
+                        "question": "Can they handle coloring?",
+                        "answer": "Yes, basic hair coloring and highlights are included."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–90 minutes depending on the service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Skin Care & Facial Treatments",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/skin-care-facial-treatments",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What types of facials are offered?",
+                        "answer": "Cleansing, anti-aging, hydration, and acne treatments."
+                    },
+                    {
+                        "question": "Do I need to bring my own products?",
+                        "answer": "No, Taskers bring professional skincare products."
+                    },
+                    {
+                        "question": "Are treatments suitable for sensitive skin?",
+                        "answer": "Yes, customized treatments are available."
+                    },
+                    {
+                        "question": "How long does a facial last?",
+                        "answer": "Typically 30–60 minutes."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all treatments are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Nail Care (Manicure & Pedicure)",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/nail-care-manicure-pedicure",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "Do Taskers provide both manicure and pedicure?",
+                        "answer": "Yes, basic and advanced nail services are included."
+                    },
+                    {
+                        "question": "Do I need to bring nail polish?",
+                        "answer": "No, Taskers provide nail polish and tools."
+                    },
+                    {
+                        "question": "Are gel or acrylic nails available?",
+                        "answer": "Yes, upon request."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–60 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all nail services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Makeup Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/makeup-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "Do Taskers provide bridal makeup?",
+                        "answer": "Yes, bridal, party, and casual makeup services are offered."
+                    },
+                    {
+                        "question": "Do I need to provide makeup products?",
+                        "answer": "No, Taskers bring professional makeup kits."
+                    },
+                    {
+                        "question": "Can they do airbrush makeup?",
+                        "answer": "Yes, advanced techniques are available."
+                    },
+                    {
+                        "question": "How long does a makeup session take?",
+                        "answer": "Typically 45–90 minutes depending on complexity."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Hair Removal Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/hair-removal-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What types of hair removal are offered?",
+                        "answer": "Waxing, threading, laser, and sugaring services."
+                    },
+                    {
+                        "question": "Do I need to bring supplies?",
+                        "answer": "No, Taskers bring necessary tools."
+                    },
+                    {
+                        "question": "Is it suitable for sensitive skin?",
+                        "answer": "Yes, treatments are customized."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 20–60 minutes depending on area."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Massage & Body Treatments",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/massage-body-treatments",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What types of massages are offered?",
+                        "answer": "Swedish, deep tissue, aromatherapy, and hot stone massages."
+                    },
+                    {
+                        "question": "Do I need to provide oils or equipment?",
+                        "answer": "No, Taskers bring all necessary materials."
+                    },
+                    {
+                        "question": "Are treatments suitable for pregnant clients?",
+                        "answer": "Yes, specialized prenatal massages are available."
+                    },
+                    {
+                        "question": "How long does a massage last?",
+                        "answer": "Typically 30–90 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all massage and body treatments are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Permanent Makeup & Cosmetic Tattooing",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/permanent-makeup-cosmetic-tattooing",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What procedures are available?",
+                        "answer": "Eyebrow microblading, lip tinting, eyeliner tattoo, and more."
+                    },
+                    {
+                        "question": "Do Taskers provide aftercare instructions?",
+                        "answer": "Yes, full aftercare guidance is included."
+                    },
+                    {
+                        "question": "Is it painful?",
+                        "answer": "Pain is minimal and topical numbing cream is applied."
+                    },
+                    {
+                        "question": "How long does the procedure take?",
+                        "answer": "Typically 60–120 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all procedures are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Spa & Wellness Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/spa-wellness-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What services are included?",
+                        "answer": "Facials, massages, body wraps, and relaxation therapies."
+                    },
+                    {
+                        "question": "Do I need to bring anything?",
+                        "answer": "No, Taskers provide all materials."
+                    },
+                    {
+                        "question": "Are treatments suitable for all ages?",
+                        "answer": "Yes, customized sessions are available."
+                    },
+                    {
+                        "question": "How long does a spa session last?",
+                        "answer": "Typically 30–120 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all spa and wellness services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Medical Aesthetics & Advanced Treatments",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/medical-aesthetics-advanced-treatments",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What treatments are offered?",
+                        "answer": "Botox, fillers, chemical peels, laser treatments, and skin rejuvenation."
+                    },
+                    {
+                        "question": "Are treatments safe?",
+                        "answer": "Yes, performed by certified professionals."
+                    },
+                    {
+                        "question": "Do I need a consultation?",
+                        "answer": "Yes, a prior consultation is recommended."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–90 minutes depending on procedure."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all advanced treatments are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Men’s Grooming Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/mens-grooming-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What services are included?",
+                        "answer": "Haircuts, beard trims, facials, and massages for men."
+                    },
+                    {
+                        "question": "Do I need to bring grooming products?",
+                        "answer": "No, Taskers provide all necessary tools."
+                    },
+                    {
+                        "question": "Can I book a home service?",
+                        "answer": "Yes, services can be done at home."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–60 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all grooming services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Eyelash & Eyebrow Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/eyelash-eyebrow-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What services are offered?",
+                        "answer": "Lash extensions, lifts, tinting, and eyebrow shaping/microblading."
+                    },
+                    {
+                        "question": "Do I need to bring anything?",
+                        "answer": "No, Taskers bring all tools and products."
+                    },
+                    {
+                        "question": "Are treatments safe for sensitive eyes?",
+                        "answer": "Yes, hypoallergenic products are used."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–90 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all eyelash and eyebrow services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Alternative & Holistic Beauty Services",
+                "href": "/services/BEAUTY-SERVICES-IN-PERSON/alternative-holistic-beauty-services",
+                "banner": "/8.png",
+                "faqs": [
+                    {
+                        "question": "What services are included?",
+                        "answer": "Reiki, aromatherapy, crystal healing, and natural facials."
+                    },
+                    {
+                        "question": "Do I need to bring anything?",
+                        "answer": "No, Taskers provide all necessary materials."
+                    },
+                    {
+                        "question": "Are services suitable for all ages?",
+                        "answer": "Yes, customized sessions are available."
+                    },
+                    {
+                        "question": "How long does a session take?",
+                        "answer": "Typically 30–90 minutes depending on service."
+                    },
+                    {
+                        "question": "Is service insured?",
+                        "answer": "Yes, all holistic services are insured."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "EDUCATIONAL SERVICES – VIRTUAL (Adults)",
+        title: "EDUCATIONAL SERVICES – VIRTUAL (Adults)",
+        href: "/services/EDUCATIONAL-SERVICES-VIRTUAL",
+        description: "Expand Your Horizons with Virtual Educational Services",
+        banner: "/_19. Educ Serv Adult - Virtual.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "EDUCATIONAL SERVICES – VIRTUAL (Adults)",
+                "description": "Enhance your skills and knowledge with virtual learning programs for adults.",
+                "banner": "/_19. Educ Serv Adult - Virtual.jpg"
+            },
+            "about": {
+                "title": "About Our Virtual Educational Services (Adults)",
+                "text": "On our platform, you can find the perfect educational professional to meet your unique learning goals. We host a vast network of experts offering instruction in a wide variety of subjects and skills, from mastering a new software to learning a foreign language. This extensive selection ensures that you can find the ideal tutor who aligns with your specific objectives and learning style, making it easier than ever to invest in your personal and professional growth from the comfort of your home.",
+                "title2": "Find the Right Expert, Unbound by Location",
+                "text1": "Our platform simplifies your search with a directory systematically organized by specialization and professional expertise. This allows you to quickly filter and select a specialist based on the quality of instruction and the specific skill set you need to develop. The virtual format removes all geographical boundaries, granting you access to top-tier professionals from around the world. The core value is simple: connecting you with the right teacher and the right subject, no matter where you are. There are no more limits to finding the perfect match for your educational journey."
+            },
+            "cardsSection": [
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/academic-professional-tutoring"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/language-communication"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/creative-performing-arts"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/technology-digital-skills"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/business-career-development"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/lifestyle-personal-growth"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/specialized-niche-areas"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/hobby-leisure-learning"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/virtual-education-degree-certificate-diploma"
+                },
+                {
+                    "image": "/9.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/other-virtual-educational-services-adults"
+                }
+            ],
+            "photoSection": {
+                "image": "/_19. Educ Serv Adult - Virtual.jpg",
+                "heading": "Virtual Educational Services for Adults",
+                "text": "Learn at your own pace or via live sessions with experienced tutors in a variety of subjects and skill areas."
+            }
+        },
+        subServices: [
+            {
+                "name": "Academic & Professional Tutoring",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/academic-professional-tutoring",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What subjects are covered?",
+                        "answer": "We offer tutoring in maths, sciences, languages, business and more."
+                    },
+                    {
+                        "question": "Are sessions one‑on‑one or group?",
+                        "answer": "Sessions can be either one‑on‑one or small group depending on your preference."
+                    },
+                    {
+                        "question": "Do I need to provide materials?",
+                        "answer": "No, the tutor brings all necessary materials and resources."
+                    },
+                    {
+                        "question": "How long is each session?",
+                        "answer": "Typical sessions last 45–60 minutes depending on the topic."
+                    },
+                    {
+                        "question": "Is support available outside the session?",
+                        "answer": "Yes, optional follow‑up help can be arranged."
+                    }
+                ]
+            },
+            {
+                "name": "Language & Communication",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/language-communication",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "Which languages are offered?",
+                        "answer": "We cover English, Spanish, French, German, Mandarin and more."
+                    },
+                    {
+                        "question": "Are conversation practice sessions available?",
+                        "answer": "Yes, we provide conversation practice with native or fluent tutors."
+                    },
+                    {
+                        "question": "Do I need to be a beginner?",
+                        "answer": "No, all levels from beginner to advanced are welcome."
+                    },
+                    {
+                        "question": "How long does it take to improve fluency?",
+                        "answer": "Improvement depends on consistency; most see progress in a few months."
+                    },
+                    {
+                        "question": "Is pronunciation coaching included?",
+                        "answer": "Yes, pronunciation and communication skills coaching are included."
+                    }
+                ]
+            },
+            {
+                "name": "Creative & Performing Arts",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/creative-performing-arts",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What disciplines are offered?",
+                        "answer": "Drawing, painting, music, dance, theatre and digital art are offered."
+                    },
+                    {
+                        "question": "Do I need special equipment?",
+                        "answer": "Basic materials are provided; for instruments you may need your own."
+                    },
+                    {
+                        "question": "Are classes live or pre‑recorded?",
+                        "answer": "Both live interactive and pre‑recorded sessions are available."
+                    },
+                    {
+                        "question": "Can adults join beginner classes?",
+                        "answer": "Yes, adult beginners and advanced learners are welcome."
+                    },
+                    {
+                        "question": "Is there a performance or showcase at the end?",
+                        "answer": "Yes, optional online showcases or portfolios can be arranged."
+                    }
+                ]
+            },
+            {
+                "name": "Technology & Digital Skills",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/technology-digital-skills",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "Which topics are covered?",
+                        "answer": "Coding, data analysis, graphic design, digital marketing and more."
+                    },
+                    {
+                        "question": "Do I need prior experience?",
+                        "answer": "No, courses are available from beginner to advanced levels."
+                    },
+                    {
+                        "question": "Are software tools included?",
+                        "answer": "Yes, we use widely available tools and provide access as needed."
+                    },
+                    {
+                        "question": "How long does a typical course run?",
+                        "answer": "Usually 4–12 weeks depending on complexity."
+                    },
+                    {
+                        "question": "Is a certificate provided?",
+                        "answer": "Yes, certificates of completion are provided for many courses."
+                    }
+                ]
+            },
+            {
+                "name": "Business & Career Development",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/business-career-development",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What topics are covered?",
+                        "answer": "Resume writing, interview prep, leadership training and entrepreneurship."
+                    },
+                    {
+                        "question": "Are sessions tailored to a specific industry?",
+                        "answer": "Yes, we can tailor content to your field or goal."
+                    },
+                    {
+                        "question": "Do I get one‑on‑one coaching?",
+                        "answer": "Yes, individual coaching is available."
+                    },
+                    {
+                        "question": "How many sessions are included?",
+                        "answer": "Packages vary; typical packages include 3–10 sessions."
+                    },
+                    {
+                        "question": "Is follow‑up support offered?",
+                        "answer": "Yes, follow‑up support and check‑ins are available."
+                    }
+                ]
+            },
+            {
+                "name": "Lifestyle & Personal Growth",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/lifestyle-personal-growth",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What areas are covered?",
+                        "answer": "Time‑management, mindfulness, habits, wellness and personal development."
+                    },
+                    {
+                        "question": "Can I schedule just one session?",
+                        "answer": "Yes, single sessions or package options are available."
+                    },
+                    {
+                        "question": "Do I need to complete homework?",
+                        "answer": "Optional practice tasks may be provided, but not mandatory."
+                    },
+                    {
+                        "question": "How long is a typical session?",
+                        "answer": "Typically 30–60 minutes."
+                    },
+                    {
+                        "question": "Is the service insured?",
+                        "answer": "Yes, our coaching services are insured."
+                    }
+                ]
+            },
+            {
+                "name": "Specialized & Niche Areas",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/specialized-niche-areas",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What qualifies as specialized areas?",
+                        "answer": "Examples include advanced maths, niche languages, rare instruments or specialized crafts."
+                    },
+                    {
+                        "question": "Do I need to have a background in the field?",
+                        "answer": "Not necessarily, we offer beginner and advanced tracks."
+                    },
+                    {
+                        "question": "How many participants per session?",
+                        "answer": "Typically small groups or one‑on‑one to maintain focus."
+                    },
+                    {
+                        "question": "Can sessions be customized?",
+                        "answer": "Yes, the content is tailored to your needs."
+                    },
+                    {
+                        "question": "Is follow‑up support included?",
+                        "answer": "Yes, continued assistance or resources are provided."
+                    }
+                ]
+            },
+            {
+                "name": "Hobby & Leisure Learning",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/hobby-leisure-learning",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What hobbies are offered?",
+                        "answer": "Cooking, gardening, photography, languages for travel and more."
+                    },
+                    {
+                        "question": "Are sessions live or self‑paced?",
+                        "answer": "Both live interactive and self‑paced options are available."
+                    },
+                    {
+                        "question": "Do I need to buy materials?",
+                        "answer": "Some hobbies may require basic materials; this will be communicated in advance."
+                    },
+                    {
+                        "question": "How long is each class?",
+                        "answer": "Usually 30–60 minutes."
+                    },
+                    {
+                        "question": "Is there a beginner level available?",
+                        "answer": "Yes, all levels from beginner upwards are accepted."
+                    }
+                ]
+            },
+            {
+                "name": "Virtual Education (Degree, Certificate, Diploma)",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/virtual-education-degree-certificate-diploma",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What qualifications are offered?",
+                        "answer": "Online degrees, certificates and diploma programmes in various fields."
+                    },
+                    {
+                        "question": "Are programmes accredited?",
+                        "answer": "Yes, we partner with accredited institutions."
+                    },
+                    {
+                        "question": "How do I enrol?",
+                        "answer": "You register online, submit credentials and schedule orientation."
+                    },
+                    {
+                        "question": "What is the duration of programmes?",
+                        "answer": "Typically 6 months to 4 years depending on the qualification."
+                    },
+                    {
+                        "question": "Is support provided throughout the course?",
+                        "answer": "Yes, you’ll have access to tutors, forums and resources."
+                    }
+                ]
+            },
+            {
+                "name": "Other Virtual Educational Services (Adults)",
+                "href": "/services/EDUCATIONAL-SERVICES-VIRTUAL/other-virtual-educational-services-adults",
+                "parent": "/services/educational‑services‑virtual",
+                "faqs": [
+                    {
+                        "question": "What falls under this category?",
+                        "answer": "Adult‑learning workshops, refresher courses and personal enrichment programmes."
+                    },
+                    {
+                        "question": "Can I join without prior qualifications?",
+                        "answer": "Yes, many courses are open to adult beginners."
+                    },
+                    {
+                        "question": "Are sessions live or recorded?",
+                        "answer": "Both options are available depending on the course."
+                    },
+                    {
+                        "question": "How long are the programmes?",
+                        "answer": "Varies from 1 hour workshops to multi‑week programmes."
+                    },
+                    {
+                        "question": "Is certification included?",
+                        "answer": "Some courses offer completion certificates; others are informal."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "educational-services-virtual-kids-teens",
+        title: "EDUCATIONAL SERVICES - VIRTUAL (Kids, Teens)",
+        href: "/services/educational-services-virtual",
+        description: "Get help with holiday preparations, decorations, and more!",
+        banner: "/_21. Edu Services - kids - virtual.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "EDUCATIONAL SERVICES – VIRTUAL (Kids, Teens)",
+                "description": "Find the Perfect Learning Partner for Your Child's Journey",
+                "banner": "/_21. Edu Services - kids - virtual.jpg"
+            },
+            "about": {
+                "title": "About Our Virtual Educational Services (Kids & Teens)",
+                "text": "Every child learns differently, and finding the right guide can make all the difference. On our platform, you can connect with a dedicated tutoring professional who specializes in working with kids and teens, turning challenging subjects into confident achievements. Whether your child needs help catching up in math, mastering a new language, or preparing for a crucial exam, you can find an expert who not only teaches the material but also inspires a genuine love for learning in a supportive, one-on-one environment.",
+                "title2": "Personalized Support, Without the Commute",
+                "text1": "We make it simple to find the ideal match for your child's unique personality and academic needs. Our organized directory allows you to filter tutors by their subject expertise, teaching style, and age-group specialization, ensuring you select someone who is both highly qualified and truly engaging for a young learner. The virtual format means you can access this world of talent from your own home, connecting with the perfect tutor who can provide personalized support and build your child's confidence, no matter where you are."
+            },
+            "cardsSection": [
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/academic-support-tutoring"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/creative-arts-expression"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/technology-future-skills"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/special-needs-inclusive-learning"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/hobby-based-learning"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/science-exploration"
+                },
+                {
+                    "image": "/10.png",
+                    "href": "/services/educational-services-virtual/other-virtual-educational-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_21. Edu Services - kids - virtual.jpg",
+                "heading": "Virtual Educational Services for Kids & Teens",
+                "text": "Interactive, fun, and personalized learning experiences for children and teens across academics, arts, technology, and hobbies."
+            }
+        },
+        subServices: [
+            {
+                name: "Academic Support & Tutoring",
+                href: "/services/educational-services-virtual/academic-support-tutoring",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "Do tutors cover all subjects?",
+                        answer: "Yes, tutors specialize in a wide range of academic subjects."
+                    },
+                    {
+                        question: "Is this available for all grade levels?",
+                        answer: "Yes, from primary to university level."
+                    },
+                    {
+                        question: "Are sessions live or recorded?",
+                        answer: "Sessions are live and can be recorded on request."
+                    },
+                    {
+                        question: "Can I choose my tutor?",
+                        answer: "Yes, you can select from available tutors based on expertise."
+                    },
+                    {
+                        question: "Do tutors provide study material?",
+                        answer: "Yes, customized notes and practice resources are provided."
+                    }
+                ]
+            },
+            {
+                name: "Creative Arts & Expression",
+                href: "/services/educational-services-virtual/creative-arts-expression",
+                parent: "/services/educational-services-virtual ",
+                faqs: [
+                    {
+                        question: "What types of creative classes are offered?",
+                        answer: "Drawing, painting, music, dance, and creative writing are included."
+                    },
+                    {
+                        question: "Are materials required?",
+                        answer: "Basic art supplies may be needed for some sessions."
+                    },
+                    {
+                        question: "Is prior experience necessary?",
+                        answer: "No, classes are open for beginners and experienced learners alike."
+                    },
+                    {
+                        question: "Can classes be customized?",
+                        answer: "Yes, instructors tailor lessons to learners’ goals."
+                    },
+                    {
+                        question: "Are group sessions available?",
+                        answer: "Yes, both private and group options are offered."
+                    }
+                ]
+            },
+            {
+                name: "Technology & Future Skills",
+                href: "/services/educational-services-virtual/technology-future-skills",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "What topics are covered?",
+                        answer: "Coding, robotics, AI, and digital literacy programs are available."
+                    },
+                    {
+                        question: "Do I need a specific device?",
+                        answer: "A laptop or tablet with internet access is recommended."
+                    },
+                    {
+                        question: "Are certifications provided?",
+                        answer: "Yes, certificates are issued upon completion."
+                    },
+                    {
+                        question: "Can children enroll?",
+                        answer: "Yes, courses are designed for all age groups."
+                    },
+                    {
+                        question: "Are classes interactive?",
+                        answer: "Yes, hands-on exercises and live mentoring are included."
+                    }
+                ]
+            },
+            {
+                name: "Special Needs & Inclusive Learning",
+                href: "/services/educational-services-virtual/special-needs-inclusive-learning",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "Are sessions tailored for specific needs?",
+                        answer: "Yes, programs are customized for individual learning abilities."
+                    },
+                    {
+                        question: "Do instructors have special training?",
+                        answer: "Yes, educators are certified in inclusive education."
+                    },
+                    {
+                        question: "Can parents be involved?",
+                        answer: "Yes, parental participation is encouraged."
+                    },
+                    {
+                        question: "Is one-on-one support available?",
+                        answer: "Yes, personalized assistance is provided."
+                    },
+                    {
+                        question: "What age groups are supported?",
+                        answer: "Services are available for children, teens, and adults."
+                    }
+                ]
+            },
+            {
+                name: "Hobby-Based Learning",
+                href: "/services/educational-services-virtual/hobby-based-learning",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "What hobbies can I learn?",
+                        answer: "Photography, cooking, music, and more."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, beginners are welcome."
+                    },
+                    {
+                        question: "Are materials or kits provided?",
+                        answer: "Some classes include starter kits or supply lists."
+                    },
+                    {
+                        question: "Can I join multiple hobbies?",
+                        answer: "Yes, you can enroll in multiple hobby programs."
+                    },
+                    {
+                        question: "Are there online group activities?",
+                        answer: "Yes, group workshops and challenges are offered."
+                    }
+                ]
+            },
+            {
+                name: "Science & Exploration",
+                href: "/services/educational-services-virtual/science-exploration",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "What topics are covered?",
+                        answer: "Physics, chemistry, biology, and environmental science."
+                    },
+                    {
+                        question: "Are experiments included?",
+                        answer: "Yes, safe virtual or home-based experiments are conducted."
+                    },
+                    {
+                        question: "Can children participate?",
+                        answer: "Yes, designed for ages 6 and above."
+                    },
+                    {
+                        question: "Are live demonstrations available?",
+                        answer: "Yes, interactive live demos are part of the program."
+                    },
+                    {
+                        question: "Do learners get certificates?",
+                        answer: "Yes, after successful participation."
+                    }
+                ]
+            },
+            {
+                name: "Other Virtual Educational Services",
+                href: "/services/educational-services-virtual/other-virtual-educational-services",
+                parent: "/services/educational-services-virtual",
+                faqs: [
+                    {
+                        question: "What other educational options are available?",
+                        answer: "Custom workshops, consultations, and mentoring sessions."
+                    },
+                    {
+                        question: "Can I request a specific topic?",
+                        answer: "Yes, tailor-made sessions can be arranged."
+                    },
+                    {
+                        question: "Are sessions private or public?",
+                        answer: "Both options are offered based on your preference."
+                    },
+                    {
+                        question: "Is scheduling flexible?",
+                        answer: "Yes, sessions can be booked at convenient times."
+                    },
+                    {
+                        question: "Do instructors provide feedback?",
+                        answer: "Yes, detailed performance feedback is provided."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "EDUCATIONAL SERVICES - IN PERSON",
+        title: "EDUCATIONAL SERVICES - IN PERSON (Adults)",
+        href: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+        description: "Stay warm and safe with seasonal winter task services.",
+        banner: "/_20. Edu Services Adult - Real.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "EDUCATIONAL SERVICES - IN PERSON (Adults)",
+                "description": "Advance Your Skills with Personalized, In-Person Instruction",
+                "banner": "/_20. Edu Services Adult - Real.jpg"
+            },
+            "about": {
+                "title": "About Our In-Person Educational Services (Adults)",
+                "text": "On our platform, you can find the ideal educational professional to meet your ambitious learning goals right in your local community. We host a vast network of experts offering hands-on instruction in a wide variety of subjects and trades, from mastering a musical instrument to acquiring certified professional qualifications. This extensive selection ensures you can find the perfect tutor whose expertise aligns with your specific objectives, providing a structured and interactive environment that is essential for mastering complex, practical skills.",
+                "title2": "Find the Right Local Expert for Your Schedule",
+                "text1": "Our platform simplifies your search with a directory systematically organized by specialization. This allows you to quickly filter and select a specialist based on the quality of instruction you require and a location that fits conveniently into your daily routine. The in-person format facilitates a deeper connection and immediate, hands-on feedback, turning your local area into a personalized classroom for your professional and personal development. The goal is simple: connecting you with the right teacher and the right subject, right where you are."
+            },
+            "cardsSection": [
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/arts-creativity"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/aquatic-sports-certification-programs"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/beauty-industry-classes"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/cooking-baking-classes"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/fitness-wellness-dance"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/firearms-safety-training-certification"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/lifestyle-hobbies"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/martial-arts"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/multisport"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/professional-development"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/technology-hands-on-tech"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/transportation-training-certification"
+                },
+                {
+                    "image": "/11.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON/other-educational-services"
+                }
+            ],
+            "photoSection": {
+                "image": "",
+                "heading": "In-Person Educational Services for Adults",
+                "text": "Hands-on, interactive learning experiences for adults in arts, trades, fitness, professional certifications, and hobbies."
+            }
+        },
+        subServices: [
+            {
+                name: "Arts & Creativity",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/arts-creativity",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What art courses are available?",
+                        answer: "Painting, sketching, crafts, and creative design workshops."
+                    },
+                    {
+                        question: "Are materials included?",
+                        answer: "Basic materials may be provided or purchased separately."
+                    },
+                    {
+                        question: "Are classes beginner-friendly?",
+                        answer: "Yes, designed for all skill levels."
+                    },
+                    {
+                        question: "Do I get a certificate?",
+                        answer: "Yes, certificates are awarded after completion."
+                    },
+                    {
+                        question: "Are classes held in groups?",
+                        answer: "Yes, both group and private classes are available."
+                    }
+                ]
+            },
+            {
+                name: "Aquatic Sports & Certification Programs",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/aquatic-sports-certification-programs",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What aquatic sports are offered?",
+                        answer: "Swimming, diving, and lifeguard training."
+                    },
+                    {
+                        question: "Are instructors certified?",
+                        answer: "Yes, all instructors are professionally certified."
+                    },
+                    {
+                        question: "Is equipment provided?",
+                        answer: "Yes, essential safety gear is included."
+                    },
+                    {
+                        question: "Are certifications recognized?",
+                        answer: "Yes, recognized by relevant authorities."
+                    },
+                    {
+                        question: "Are there classes for beginners?",
+                        answer: "Yes, beginner to advanced levels available."
+                    }
+                ]
+            },
+            {
+                name: "Beauty Industry Classes",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/beauty-industry-classes",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What beauty programs are offered?",
+                        answer: "Makeup, skincare, nail art, and hairstyling."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, courses are suitable for all skill levels."
+                    },
+                    {
+                        question: "Are certificates provided?",
+                        answer: "Yes, professional certification upon completion."
+                    },
+                    {
+                        question: "Are tools and products provided?",
+                        answer: "Basic kits are included or available to buy."
+                    },
+                    {
+                        question: "Can I start a business after training?",
+                        answer: "Yes, courses include business guidance."
+                    }
+                ]
+            },
+            {
+                name: "Cooking & Baking Classes",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/cooking-baking-classes",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What cuisines are taught?",
+                        answer: "Local and international cuisines."
+                    },
+                    {
+                        question: "Are classes hands-on?",
+                        answer: "Yes, participants cook and bake themselves."
+                    },
+                    {
+                        question: "Are ingredients provided?",
+                        answer: "Ingredients are usually included in the fee."
+                    },
+                    {
+                        question: "Can I join with friends?",
+                        answer: "Yes, group enrollments are allowed."
+                    },
+                    {
+                        question: "Is certification available?",
+                        answer: "Yes, after successful completion."
+                    }
+                ]
+            },
+            {
+                name: "Fitness, Wellness & Dance Classes",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/fitness-wellness-dance",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What types of fitness classes are offered?",
+                        answer: "Yoga, Zumba, aerobics, and dance workouts."
+                    },
+                    {
+                        question: "Do I need to bring equipment?",
+                        answer: "No, all required equipment is provided."
+                    },
+                    {
+                        question: "Are classes mixed or gender-specific?",
+                        answer: "Both options are available."
+                    },
+                    {
+                        question: "Is there a trial class?",
+                        answer: "Yes, free trials are available in select centers."
+                    },
+                    {
+                        question: "Are instructors certified?",
+                        answer: "Yes, all are certified professionals."
+                    }
+                ]
+            },
+            {
+                name: "Firearms Safety Training & Certification",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/firearms-safety-training-certification",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "Is the training government-approved?",
+                        answer: "Yes, certified under official safety programs."
+                    },
+                    {
+                        question: "Who can enroll?",
+                        answer: "Adults meeting legal eligibility requirements."
+                    },
+                    {
+                        question: "Is equipment provided?",
+                        answer: "Yes, safety gear and training equipment are supplied."
+                    },
+                    {
+                        question: "Are instructors licensed?",
+                        answer: "Yes, all are authorized professionals."
+                    },
+                    {
+                        question: "Do I receive certification?",
+                        answer: "Yes, after successful course completion."
+                    }
+                ]
+            },
+            {
+                name: "Lifestyle & Hobbies",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/lifestyle-hobbies",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What hobbies are available?",
+                        answer: "Photography, gardening, DIY, and calligraphy."
+                    },
+                    {
+                        question: "Are materials provided?",
+                        answer: "Basic supplies are included."
+                    },
+                    {
+                        question: "Can I bring a friend?",
+                        answer: "Yes, you can join as a pair or group."
+                    },
+                    {
+                        question: "Is prior experience needed?",
+                        answer: "No, all levels welcome."
+                    },
+                    {
+                        question: "Are workshops seasonal?",
+                        answer: "Yes, new sessions open each quarter."
+                    }
+                ]
+            },
+            {
+                name: "Martial Arts",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/martial-arts",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What styles are taught?",
+                        answer: "Karate, Taekwondo, Judo, and Mixed Martial Arts."
+                    },
+                    {
+                        question: "Are uniforms required?",
+                        answer: "Yes, can be purchased at the center."
+                    },
+                    {
+                        question: "Are there classes for kids?",
+                        answer: "Yes, all ages welcome."
+                    },
+                    {
+                        question: "Do I earn belts or certificates?",
+                        answer: "Yes, progressive certification is included."
+                    },
+                    {
+                        question: "Are instructors experienced?",
+                        answer: "Yes, black-belt certified professionals."
+                    }
+                ]
+            },
+            {
+                name: "Multisport",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/multisport",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What sports are offered?",
+                        answer: "Football, tennis, basketball, and more."
+                    },
+                    {
+                        question: "Are facilities indoor or outdoor?",
+                        answer: "Both options available."
+                    },
+                    {
+                        question: "Do I need my own gear?",
+                        answer: "Basic gear provided, personal use optional."
+                    },
+                    {
+                        question: "Are there team tournaments?",
+                        answer: "Yes, inter-class and community matches."
+                    },
+                    {
+                        question: "Are coaches certified?",
+                        answer: "Yes, trained sports professionals."
+                    }
+                ]
+            },
+            {
+                name: "Professional Development (Degree, Certificate, Diploma)",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/professional-development",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What programs are available?",
+                        answer: "Short-term certifications to full diploma programs."
+                    },
+                    {
+                        question: "Are these accredited?",
+                        answer: "Yes, through recognized educational institutions."
+                    },
+                    {
+                        question: "Are classes in-person or hybrid?",
+                        answer: "Mostly in-person with flexible options."
+                    },
+                    {
+                        question: "Is there career support?",
+                        answer: "Yes, job placement assistance is offered."
+                    },
+                    {
+                        question: "Are evening classes available?",
+                        answer: "Yes, for working professionals."
+                    }
+                ]
+            },
+            {
+                name: "Technology & Hands-On Tech",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/technology-hands-on-tech",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What topics are covered?",
+                        answer: "IT, electronics, hardware repair, and automation."
+                    },
+                    {
+                        question: "Do I need technical background?",
+                        answer: "No, courses start from beginner level."
+                    },
+                    {
+                        question: "Are tools provided?",
+                        answer: "Yes, hands-on kits and lab access included."
+                    },
+                    {
+                        question: "Are instructors industry experts?",
+                        answer: "Yes, professionals with field experience."
+                    },
+                    {
+                        question: "Are job placements offered?",
+                        answer: "Yes, based on course performance."
+                    }
+                ]
+            },
+            {
+                name: "Transportation Training & Certification Programs",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/transportation-training-certification",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What transport courses are offered?",
+                        answer: "Driving, logistics, and vehicle maintenance programs."
+                    },
+                    {
+                        question: "Are certifications government-approved?",
+                        answer: "Yes, valid under regional transport authorities."
+                    },
+                    {
+                        question: "Are instructors licensed?",
+                        answer: "Yes, certified professionals."
+                    },
+                    {
+                        question: "Are practical sessions included?",
+                        answer: "Yes, hands-on practice is part of training."
+                    },
+                    {
+                        question: "Can I get job assistance?",
+                        answer: "Yes, placement guidance is offered."
+                    }
+                ]
+            },
+            {
+                name: "Other Educational Services",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON/other-educational-services",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON",
+                faqs: [
+                    {
+                        question: "What other training options exist?",
+                        answer: "Custom workshops, mentoring, and specialized training."
+                    },
+                    {
+                        question: "Can I request private sessions?",
+                        answer: "Yes, tailored sessions available."
+                    },
+                    {
+                        question: "Is certification optional?",
+                        answer: "Yes, depending on the course."
+                    },
+                    {
+                        question: "Are schedules flexible?",
+                        answer: "Yes, weekday and weekend classes available."
+                    },
+                    {
+                        question: "Are group discounts offered?",
+                        answer: "Yes, for group enrollments."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "EDUCATIONAL SERVICES – IN PERSON (Kids, Teens)",
+        title: "EDUCATIONAL SERVICES – IN PERSON (Kids, Teens)",
+        href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+        description: "Engaging, skill-building, and fun learning experiences for kids and teens.",
+        banner: "/_22. Educ Serv kids- real.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "EDUCATIONAL SERVICES – IN PERSON (Kids, Teens)",
+                "description": "Unlock Your Child's Potential with Personalized, In-Person Tutoring",
+                "banner": "/_22. Educ Serv kids- real.jpg"
+            },
+            "about": {
+                "title": "About Our In-Person Educational Services (Kids & Teens)",
+                "text": "On our platform, you can find the ideal educational professional to meet your child's unique academic and developmental needs right in your local community. This careful selection ensures you can find the perfect tutor who not only aligns with your child's learning style but also knows how to build confidence and inspire a genuine love for learning through structured, supportive interaction.",
+                "title2": "Find the Right Learning Partner for Your Family's Routine",
+                "text1": "Our platform simplifies your search with a directory systematically organized by grade level, subject specialization, and proximity to you. This allows you to quickly filter and select a specialist based on the engaging teaching style your child needs and a location that fits conveniently into your family's schedule. The in-person format is key for young learners, facilitating a deeper mentor-student connection and immediate, interactive feedback that is difficult to replicate online. The goal is simple: connecting you with the right tutor to build your child's skills and confidence, right in your neighborhood."
+            },
+            "cardsSection": [
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/academic-tutoring"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/arts-creativity"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/aquatic-sports-certification-programs"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/creative-arts-expression"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/martial-arts"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/multisport"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/performing-arts"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/sports-physical-activities"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/stem-technology"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/special-needs-inclusive-education"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/hobbies-special-interests"
+                },
+                {
+                    "image": "/12.png",
+                    "href": "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/other-educational-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_22. Educ Serv kids- real.jpg",
+                "heading": "In-Person Educational Services for Kids & Teens",
+                "text": "Hands-on, interactive learning experiences for children and teens in academics, arts, sports, STEM, and hobbies."
+            }
+        },
+        subServices: [
+            {
+                name: "Academic & Tutoring",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/academic-tutoring",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "What subjects are covered?",
+                        answer: "Math, science, languages, and more."
+                    },
+                    {
+                        question: "Are sessions live?",
+                        answer: "Yes, live and interactive."
+                    },
+                    {
+                        question: "Can I choose a tutor?",
+                        answer: "Yes, based on availability and expertise."
+                    },
+                    {
+                        question: "Are materials provided?",
+                        answer: "Yes, customized notes and practice worksheets."
+                    },
+                    {
+                        question: "Is help available for all grade levels?",
+                        answer: "Yes, from primary to high school."
+                    }
+                ]
+            },
+            {
+                name: "Arts & Creativity",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/arts-creativity",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "What creative activities are included?",
+                        answer: "Painting, crafts, design, and DIY projects."
+                    },
+                    {
+                        question: "Are materials included?",
+                        answer: "Yes, basic art supplies are provided."
+                    },
+                    {
+                        question: "Are classes age-appropriate?",
+                        answer: "Yes, tailored for different age groups."
+                    },
+                    {
+                        question: "Can students showcase work?",
+                        answer: "Yes, exhibitions are held regularly."
+                    },
+                    {
+                        question: "Are classes group-based?",
+                        answer: "Yes, both group and individual sessions available."
+                    }
+                ]
+            },
+            {
+                name: "Aquatic Sports & Certification Programs",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/aquatic-sports-certification-programs",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which aquatic sports are offered?",
+                        answer: "Swimming, diving, and lifeguard training."
+                    },
+                    {
+                        question: "Are instructors certified?",
+                        answer: "Yes, all trainers are professionally certified."
+                    },
+                    {
+                        question: "Are beginners welcome?",
+                        answer: "Yes, courses for all levels."
+                    },
+                    {
+                        question: "Is safety ensured?",
+                        answer: "Yes, supervised and with proper safety gear."
+                    },
+                    {
+                        question: "Do students receive certificates?",
+                        answer: "Yes, after successful completion."
+                    }
+                ]
+            },
+            {
+                name: "Creative Arts & Expression",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/creative-arts-expression",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "What types of classes are offered?",
+                        answer: "Music, dance, drama, and creative writing."
+                    },
+                    {
+                        question: "Is prior experience needed?",
+                        answer: "No, open for all skill levels."
+                    },
+                    {
+                        question: "Are classes interactive?",
+                        answer: "Yes, hands-on activities included."
+                    },
+                    {
+                        question: "Are group sessions available?",
+                        answer: "Yes, both group and private options."
+                    },
+                    {
+                        question: "Do students get performance opportunities?",
+                        answer: "Yes, recitals and showcases are organized."
+                    }
+                ]
+            },
+            {
+                name: "Martial Arts",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/martial-arts",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which styles are taught?",
+                        answer: "Karate, Taekwondo, Judo, and Mixed Martial Arts."
+                    },
+                    {
+                        question: "Do students earn belts?",
+                        answer: "Yes, progressive belt system followed."
+                    },
+                    {
+                        question: "Are classes safe?",
+                        answer: "Yes, supervised sessions with safety gear."
+                    },
+                    {
+                        question: "Do classes improve discipline?",
+                        answer: "Yes, builds focus, confidence, and self-control."
+                    },
+                    {
+                        question: "Are tournaments held?",
+                        answer: "Yes, friendly competitions and inter-class events."
+                    }
+                ]
+            },
+            {
+                name: "Multisport",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/multisport",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which sports are included?",
+                        answer: "Football, basketball, tennis, and athletics."
+                    },
+                    {
+                        question: "Are classes age-appropriate?",
+                        answer: "Yes, different levels for kids and teens."
+                    },
+                    {
+                        question: "Is equipment provided?",
+                        answer: "Yes, basic sports gear included."
+                    },
+                    {
+                        question: "Are team events organized?",
+                        answer: "Yes, inter-class matches held regularly."
+                    },
+                    {
+                        question: "Are coaches certified?",
+                        answer: "Yes, professional youth sports trainers."
+                    }
+                ]
+            },
+            {
+                name: "Performing Arts",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/performing-arts",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which performing arts are taught?",
+                        answer: "Theater, dance, music, and drama workshops."
+                    },
+                    {
+                        question: "Are classes interactive?",
+                        answer: "Yes, students perform and practice regularly."
+                    },
+                    {
+                        question: "Is prior experience required?",
+                        answer: "No, suitable for beginners."
+                    },
+                    {
+                        question: "Are group performances included?",
+                        answer: "Yes, stage shows and recitals are held."
+                    },
+                    {
+                        question: "Do students get feedback?",
+                        answer: "Yes, instructors provide detailed performance feedback."
+                    }
+                ]
+            },
+            {
+                name: "Sports & Physical Activities",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/sports-physical-activities",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which sports are offered?",
+                        answer: "Soccer, basketball, swimming, and athletics."
+                    },
+                    {
+                        question: "Are classes supervised?",
+                        answer: "Yes, all activities are monitored by certified coaches."
+                    },
+                    {
+                        question: "Do students participate in competitions?",
+                        answer: "Yes, regular tournaments and fun competitions."
+                    },
+                    {
+                        question: "Are sessions age-specific?",
+                        answer: "Yes, grouped by age and skill."
+                    },
+                    {
+                        question: "Is safety ensured?",
+                        answer: "Yes, safety equipment and rules enforced."
+                    }
+                ]
+            },
+            {
+                name: "STEM & Technology",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/stem-technology",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "What topics are covered?",
+                        answer: "Coding, robotics, engineering, and math projects."
+                    },
+                    {
+                        question: "Are sessions hands-on?",
+                        answer: "Yes, students complete projects and experiments."
+                    },
+                    {
+                        question: "Do students need prior knowledge?",
+                        answer: "No, beginner-friendly courses."
+                    },
+                    {
+                        question: "Are instructors experienced?",
+                        answer: "Yes, certified STEM educators."
+                    },
+                    {
+                        question: "Do students get certificates?",
+                        answer: "Yes, after course completion."
+                    }
+                ]
+            },
+            {
+                name: "Special Needs & Inclusive Education",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/special-needs-inclusive-education",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Are sessions tailored for individual needs?",
+                        answer: "Yes, programs are customized for each child."
+                    },
+                    {
+                        question: "Are trained instructors available?",
+                        answer: "Yes, certified in special needs education."
+                    },
+                    {
+                        question: "Can parents participate?",
+                        answer: "Yes, parental involvement is encouraged."
+                    },
+                    {
+                        question: "Is one-on-one support provided?",
+                        answer: "Yes, personalized assistance included."
+                    },
+                    {
+                        question: "What ages are supported?",
+                        answer: "Children and teens of all ages."
+                    }
+                ]
+            },
+            {
+                name: "Hobbies & Special Interests",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/hobbies-special-interests",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "Which hobbies are included?",
+                        answer: "Photography, chess, music, and creative crafts."
+                    },
+                    {
+                        question: "Are beginner-friendly classes offered?",
+                        answer: "Yes, all skill levels welcome."
+                    },
+                    {
+                        question: "Are materials provided?",
+                        answer: "Yes, basic kits included."
+                    },
+                    {
+                        question: "Can multiple hobbies be taken?",
+                        answer: "Yes, students can enroll in multiple programs."
+                    },
+                    {
+                        question: "Are group activities available?",
+                        answer: "Yes, workshops and challenges are conducted."
+                    }
+                ]
+            },
+            {
+                name: "Other Educational Services",
+                href: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS/other-educational-services",
+                parent: "/services/EDUCATIONAL-SERVICES-IN-PERSON-KIDS-TEENS",
+                faqs: [
+                    {
+                        question: "What additional programs exist?",
+                        answer: "Special workshops, mentoring, and creative projects."
+                    },
+                    {
+                        question: "Are sessions customizable?",
+                        answer: "Yes, tailored programs for individuals or schools."
+                    },
+                    {
+                        question: "Are weekend sessions available?",
+                        answer: "Yes, both weekday and weekend sessions offered."
+                    },
+                    {
+                        question: "Do students get certificates?",
+                        answer: "Yes, after program completion."
+                    },
+                    {
+                        question: "Can parents provide feedback?",
+                        answer: "Yes, feedback is collected to improve learning."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "ENTERNAINMENT",
+        title: "ENTERTAINMENT",
+        href: "/services/ENTERTAINMENT",
+        description: "Prepare your home for your little one with baby-friendly services.",
+        banner: "/_23. Entertainment.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "ENTERTAINMENT",
+                "description": "Discover Unforgettable Entertainment in Your Area",
+                "banner": "/_23. Entertainment.jpg"
+            },
+            "about": {
+                "title": "About Our Entertainment Services",
+                "text": "On our platform, you can find the perfect entertainment for any occasion, right in your local community. We host a vast network of performers and activity specialists offering a wide range of options, from live bands and magicians to themed master classes. This extensive selection ensures you can find the ideal entertainment that aligns with your event's theme and atmosphere, making it easier than ever to create memorable moments for you and your guests.",
+                "title2": "Find the Right Entertainment for Your Celebration",
+                "text1": "Our platform simplifies your search with a directory systematically organized by activity type, event specialization, and proximity to you. This allows you to quickly filter and select entertainers based on the specific vibe you want to create, whether it's a lively birthday party, an elegant corporate gathering, or a fun-filled children's event. The goal is simple: connecting you with the right performer to bring joy and excitement to your celebration, right where you are."
+            },
+            "cardsSection": [
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/guided-tours-excursions"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/horse-riding-farm-activities"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/water-transport"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/music-performance"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/dance-performance"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/fire-bubble-show"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/magic-circus-show"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/birthday-party"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/petting-animals-party"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/wedding-anniversary-parties"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/themed-master-classes"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/food-catering-services"
+                },
+                {
+                    "image": "/13.png",
+                    "href": "/services/ENTERTAINMENT/other-entertainment-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_23. Entertainment.jpg",
+                "heading": "Entertainment Services for Every Occasion",
+                "text": "Hands-on and live entertainment experiences including tours, performances, parties, and special events for all ages."
+            }
+        },
+        subServices: [
+            {
+                name: "Guided Tours & Excursions",
+                href: "/services/ENTERTAINMENT/guided-tours-excursions",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Which locations are covered?",
+                        answer: "Local attractions, historical sites, and nature trips."
+                    },
+                    {
+                        question: "Are guides trained?",
+                        answer: "Yes, professional and experienced guides lead tours."
+                    },
+                    {
+                        question: "Can tours be customized?",
+                        answer: "Yes, tailored itineraries are available."
+                    },
+                    {
+                        question: "Are transportation arrangements included?",
+                        answer: "Yes, travel within tour is provided."
+                    },
+                    {
+                        question: "Are tours suitable for kids?",
+                        answer: "Yes, family-friendly tours available."
+                    }
+                ]
+            },
+            {
+                name: "Horse Riding & Farm Activities",
+                href: "/services/ENTERTAINMENT/horse-riding-farm-activities",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Is prior experience required?",
+                        answer: "No, beginners are welcome."
+                    },
+                    {
+                        question: "Are safety measures provided?",
+                        answer: "Yes, helmets and trained staff are provided."
+                    },
+                    {
+                        question: "What farm activities are included?",
+                        answer: "Animal feeding, farm tours, and nature exploration."
+                    },
+                    {
+                        question: "Are sessions age-appropriate?",
+                        answer: "Yes, activities are adjusted for kids and teens."
+                    },
+                    {
+                        question: "Can groups book private sessions?",
+                        answer: "Yes, private bookings are available."
+                    }
+                ]
+            },
+            {
+                name: "Water Transport",
+                href: "/services/ENTERTAINMENT/water-transport",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Which water activities are included?",
+                        answer: "Boat rides, kayaking, and paddle sports."
+                    },
+                    {
+                        question: "Are safety instructions provided?",
+                        answer: "Yes, life jackets and guides are included."
+                    },
+                    {
+                        question: "Are sessions age-appropriate?",
+                        answer: "Yes, for children, teens, and adults."
+                    },
+                    {
+                        question: "Is prior experience required?",
+                        answer: "No, all skill levels welcome."
+                    },
+                    {
+                        question: "Can groups book private sessions?",
+                        answer: "Yes, custom bookings available."
+                    }
+                ]
+            },
+            {
+                name: "Music Performance",
+                href: "/services/ENTERTAINMENT/music-performance",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "What types of performances are offered?",
+                        answer: "Live bands, solo musicians, and DJ performances."
+                    },
+                    {
+                        question: "Are performances customizable?",
+                        answer: "Yes, tailored playlists or themes can be arranged."
+                    },
+                    {
+                        question: "Are age-appropriate shows available?",
+                        answer: "Yes, family-friendly shows are provided."
+                    },
+                    {
+                        question: "Can performances be booked for private events?",
+                        answer: "Yes, birthdays, weddings, and parties."
+                    },
+                    {
+                        question: "Do performers provide equipment?",
+                        answer: "Yes, instruments and sound systems included."
+                    }
+                ]
+            },
+            {
+                name: "Dance Performance",
+                href: "/services/ENTERTAINMENT/dance-performance",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Which dance styles are offered?",
+                        answer: "Ballet, contemporary, hip-hop, traditional, and more."
+                    },
+                    {
+                        question: "Are shows interactive?",
+                        answer: "Yes, audience participation is possible."
+                    },
+                    {
+                        question: "Are performances suitable for kids?",
+                        answer: "Yes, family-friendly shows available."
+                    },
+                    {
+                        question: "Can performances be booked for events?",
+                        answer: "Yes, private or public events supported."
+                    },
+                    {
+                        question: "Do performers bring props?",
+                        answer: "Yes, all required props and costumes are included."
+                    }
+                ]
+            },
+            {
+                name: "Fire Show & Bubble Show",
+                href: "/services/ENTERTAINMENT/fire-bubble-show",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Are shows safe for children?",
+                        answer: "Yes, trained professionals manage all safety protocols."
+                    },
+                    {
+                        question: "Can shows be customized?",
+                        answer: "Yes, theme-based performances are possible."
+                    },
+                    {
+                        question: "Are performances outdoor?",
+                        answer: "Yes, outdoor space required for safety."
+                    },
+                    {
+                        question: "How long are shows?",
+                        answer: "Typically 30–45 minutes, customizable."
+                    },
+                    {
+                        question: "Can shows be booked for private events?",
+                        answer: "Yes, birthdays, parties, and weddings."
+                    }
+                ]
+            },
+            {
+                name: "Magic Show & Circus Show",
+                href: "/services/ENTERTAINMENT/magic-circus-show",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Are shows suitable for kids?",
+                        answer: "Yes, family-friendly performances."
+                    },
+                    {
+                        question: "Are props and equipment included?",
+                        answer: "Yes, full setup provided by performers."
+                    },
+                    {
+                        question: "Can shows be interactive?",
+                        answer: "Yes, audience participation encouraged."
+                    },
+                    {
+                        question: "Can performances be booked for events?",
+                        answer: "Yes, private bookings supported."
+                    },
+                    {
+                        question: "Are performers trained professionals?",
+                        answer: "Yes, certified magicians and circus artists."
+                    }
+                ]
+            },
+            {
+                name: "Birthday Party",
+                href: "/services/ENTERTAINMENT/birthday-party",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "What activities are included?",
+                        answer: "Games, performances, decorations, and cake."
+                    },
+                    {
+                        question: "Are themes available?",
+                        answer: "Yes, custom themes and decorations possible."
+                    },
+                    {
+                        question: "Are entertainers included?",
+                        answer: "Yes, clowns, magicians, or performers available."
+                    },
+                    {
+                        question: "Can parents participate?",
+                        answer: "Yes, family-friendly activities included."
+                    },
+                    {
+                        question: "Is catering provided?",
+                        answer: "Yes, food and drinks can be included optionally."
+                    }
+                ]
+            },
+            {
+                name: "Petting Animals Party",
+                href: "/services/ENTERTAINMENT/petting-animals-party",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Which animals are included?",
+                        answer: "Farm animals, small pets, and friendly creatures."
+                    },
+                    {
+                        question: "Is supervision provided?",
+                        answer: "Yes, trained staff supervise children and animals."
+                    },
+                    {
+                        question: "Can parties be customized?",
+                        answer: "Yes, themes and activities can be tailored."
+                    },
+                    {
+                        question: "Are parties suitable for all ages?",
+                        answer: "Yes, safe for kids, teens, and adults."
+                    },
+                    {
+                        question: "Do parents participate?",
+                        answer: "Yes, parental involvement encouraged."
+                    }
+                ]
+            },
+            {
+                name: "Wedding, Anniversary Parties",
+                href: "/services/ENTERTAINMENT/wedding-anniversary-parties",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Are events customizable?",
+                        answer: "Yes, themes, decorations, and performances available."
+                    },
+                    {
+                        question: "Is catering provided?",
+                        answer: "Yes, food and beverages can be included."
+                    },
+                    {
+                        question: "Are performers included?",
+                        answer: "Yes, music, dance, and shows arranged."
+                    },
+                    {
+                        question: "Can events be indoor or outdoor?",
+                        answer: "Yes, both options available."
+                    },
+                    {
+                        question: "Is planning support provided?",
+                        answer: "Yes, event coordination assistance available."
+                    }
+                ]
+            },
+            {
+                name: "Themed Master Classes",
+                href: "/services/ENTERTAINMENT/themed-master-classes",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "Which classes are included?",
+                        answer: "Cooking, soap-making, candle-making, and crafts."
+                    },
+                    {
+                        question: "Are materials provided?",
+                        answer: "Yes, all kits and ingredients included."
+                    },
+                    {
+                        question: "Are sessions hands-on?",
+                        answer: "Yes, interactive and practical classes."
+                    },
+                    {
+                        question: "Can sessions be customized?",
+                        answer: "Yes, tailored workshops for age and skill level."
+                    },
+                    {
+                        question: "Do participants receive certificates?",
+                        answer: "Yes, after completing the class."
+                    }
+                ]
+            },
+            {
+                name: "Food Catering Services",
+                href: "/services/ENTERTAINMENT/food-catering-services",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "What cuisines are offered?",
+                        answer: "Local and international cuisines tailored to event."
+                    },
+                    {
+                        question: "Are dietary restrictions accommodated?",
+                        answer: "Yes, vegetarian, vegan, and allergy-friendly options available."
+                    },
+                    {
+                        question: "Is service available for private events?",
+                        answer: "Yes, parties, weddings, and corporate events."
+                    },
+                    {
+                        question: "Are staff provided?",
+                        answer: "Yes, professional catering staff included."
+                    },
+                    {
+                        question: "Can menu be customized?",
+                        answer: "Yes, personalized menus based on client needs."
+                    }
+                ]
+            },
+            {
+                name: "Other Entertainment Services",
+                href: "/services/ENTERTAINMENT/other-entertainment-services",
+                parent: "/services/ENTERTAINMENT",
+                faqs: [
+                    {
+                        question: "What other services are offered?",
+                        answer: "Special shows, workshops, and unique activities."
+                    },
+                    {
+                        question: "Can services be customized?",
+                        answer: "Yes, tailored experiences available."
+                    },
+                    {
+                        question: "Are options available for all ages?",
+                        answer: "Yes, kids, teens, and adults."
+                    },
+                    {
+                        question: "Is supervision provided?",
+                        answer: "Yes, trained staff ensure safety."
+                    },
+                    {
+                        question: "Can events be booked on weekends?",
+                        answer: "Yes, flexible scheduling options provided."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "ESOTERIC-VIRTUAL",
+        title: "ESOTERIC & TRANSFORMATIVE SERVICES - VIRTUAL",
+        href: "/services/ESOTERIC-VIRTUAL",
+        description: "Virtual assistance, organization, research, & more.",
+        banner: "/_24. Esoteric - Virtual.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "ESOTERIC & TRANSFORMATIVE SERVICES - VIRTUAL",
+                "description": "Explore Your Inner Universe with Guided Esoteric Services",
+                "banner": "/_24. Esoteric - Virtual.jpg"
+            },
+            "about": {
+                "title": "About Our Virtual Esoteric Services",
+                "text": "On our platform, you can find the perfect guide to support your spiritual journey and personal transformation. We have gathered a wide range of intuitive professionals specializing in ancient and modern practices, from Tarot & Oracle Card Readings that illuminate your path to Energy Healing that restores your balance. This diverse network ensures you can find an empathetic expert whose gifts and methods resonate with your unique energy, providing the clarity and insight you seek from the comfort of your own sacred space.",
+                "title2": "Find Your Spiritual Guide, Unbound by Distance",
+                "text1": "Our platform simplifies your quest with a directory intuitively organized by specialization and intuitive expertise. This allows you to easily filter and select a specialist based on the specific guidance you need, whether it's a profound Astrology Reading or transformative Life Coaching. The virtual format transcends all physical boundaries, allowing you to connect with gifted seers, healers, and coaches from around the world. The core purpose is simple: facilitating a sacred connection with the right guide and the right practice, no matter where your journey begins."
+            },
+            "cardsSection": [
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/astrology-readings"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/energy-healing"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/life-spiritual-coaching"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/mindfulness-transformation"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/numerology-reports"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/past-life-regression-therapy"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/rituals-ceremonies"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/tarot-oracle-readings"
+                },
+                {
+                    "image": "/14.png",
+                    "href": "/services/ESOTERIC-VIRTUAL/other-esoteric-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_24. Esoteric - Virtual.jpg",
+                "heading": "Virtual Guidance for Spiritual Growth",
+                "text": "Interactive, online experiences including astrology, energy healing, spiritual coaching, and esoteric workshops designed to empower and transform."
+            }
+        },
+        subServices: [
+            {
+                name: "Astrology Readings",
+                href: "/services/ESOTERIC-VIRTUAL/astrology-readings",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "What types of astrology are offered?",
+                        answer: "Natal, predictive, and compatibility readings are available."
+                    },
+                    {
+                        question: "Are readings online?",
+                        answer: "Yes, sessions are conducted virtually via video or chat."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 30–60 minutes per session."
+                    },
+                    {
+                        question: "Can I choose a specific astrologer?",
+                        answer: "Yes, select from available certified astrologers."
+                    },
+                    {
+                        question: "Are follow-up sessions available?",
+                        answer: "Yes, additional consultations can be booked anytime."
+                    }
+                ]
+            },
+            {
+                name: "Energy Healing",
+                href: "/services/ESOTERIC-VIRTUAL/energy-healing",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "Which healing modalities are provided?",
+                        answer: "Reiki, chakra balancing, and distant healing sessions."
+                    },
+                    {
+                        question: "Are sessions one-on-one?",
+                        answer: "Yes, personalized private sessions are conducted online."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, beginners are welcome."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Usually 30–45 minutes per session."
+                    },
+                    {
+                        question: "Are follow-ups recommended?",
+                        answer: "Yes, ongoing sessions may enhance results."
+                    }
+                ]
+            },
+            {
+                name: "Life/Spiritual Coaching",
+                href: "/services/ESOTERIC-VIRTUAL/life-spiritual-coaching",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "What topics are covered?",
+                        answer: "Personal growth, spiritual guidance, and goal setting."
+                    },
+                    {
+                        question: "Are sessions online?",
+                        answer: "Yes, conducted via video calls or chat."
+                    },
+                    {
+                        question: "Can I choose a coach?",
+                        answer: "Yes, select from certified spiritual coaches."
+                    },
+                    {
+                        question: "How long is a coaching session?",
+                        answer: "Typically 45–60 minutes."
+                    },
+                    {
+                        question: "Are personalized plans provided?",
+                        answer: "Yes, tailored guidance for each individual."
+                    }
+                ]
+            },
+            {
+                name: "Mindfulness & Transformation",
+                href: "/services/ESOTERIC-VIRTUAL/mindfulness-transformation",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "What practices are included?",
+                        answer: "Meditation, visualization, and self-awareness exercises."
+                    },
+                    {
+                        question: "Are sessions live?",
+                        answer: "Yes, interactive virtual sessions are conducted."
+                    },
+                    {
+                        question: "Can beginners join?",
+                        answer: "Yes, suitable for all experience levels."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "30–60 minutes depending on the program."
+                    },
+                    {
+                        question: "Are follow-ups available?",
+                        answer: "Yes, additional sessions can be booked."
+                    }
+                ]
+            },
+            {
+                name: "Numerology Reports",
+                href: "/services/ESOTERIC-VIRTUAL/numerology-reports",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "Which numerology types are provided?",
+                        answer: "Life path, destiny, and personal year reports."
+                    },
+                    {
+                        question: "Are reports digital?",
+                        answer: "Yes, delivered via email or virtual session."
+                    },
+                    {
+                        question: "Can I request a personalized reading?",
+                        answer: "Yes, customized reports based on birth details."
+                    },
+                    {
+                        question: "How long does it take to receive a report?",
+                        answer: "Typically 24–48 hours after booking."
+                    },
+                    {
+                        question: "Are follow-up consultations available?",
+                        answer: "Yes, you can book discussion sessions."
+                    }
+                ]
+            },
+            {
+                name: "Past Life Regression Therapy",
+                href: "/services/ESOTERIC-VIRTUAL/past-life-regression-therapy",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "What is past life regression?",
+                        answer: "A guided process to explore previous life experiences."
+                    },
+                    {
+                        question: "Are sessions online?",
+                        answer: "Yes, conducted via video calls."
+                    },
+                    {
+                        question: "Is prior experience required?",
+                        answer: "No, suitable for beginners."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 60–90 minutes."
+                    },
+                    {
+                        question: "Are follow-up sessions recommended?",
+                        answer: "Yes, additional sessions can deepen the experience."
+                    }
+                ]
+            },
+            {
+                name: "Rituals & Ceremonies",
+                href: "/services/ESOTERIC-VIRTUAL/rituals-ceremonies",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "Which rituals are offered?",
+                        answer: "Blessings, intention-setting, and spiritual ceremonies."
+                    },
+                    {
+                        question: "Are online instructions provided?",
+                        answer: "Yes, guided virtual sessions available."
+                    },
+                    {
+                        question: "Can I customize the ritual?",
+                        answer: "Yes, according to your spiritual needs."
+                    },
+                    {
+                        question: "Are group sessions available?",
+                        answer: "Yes, for families or small groups."
+                    },
+                    {
+                        question: "Are materials included?",
+                        answer: "Yes, digital guidance or kits may be provided."
+                    }
+                ]
+            },
+            {
+                name: "Tarot & Oracle Card Readings",
+                href: "/services/ESOTERIC-VIRTUAL/tarot-oracle-readings",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "Which decks are used?",
+                        answer: "Various Tarot and Oracle decks according to expertise."
+                    },
+                    {
+                        question: "Are sessions online?",
+                        answer: "Yes, live virtual readings."
+                    },
+                    {
+                        question: "Can I ask specific questions?",
+                        answer: "Yes, focused readings are available."
+                    },
+                    {
+                        question: "How long is a session?",
+                        answer: "Typically 30–45 minutes."
+                    },
+                    {
+                        question: "Are follow-ups possible?",
+                        answer: "Yes, additional readings can be booked."
+                    }
+                ]
+            },
+            {
+                name: "Other Esoteric Services",
+                href: "/services/ESOTERIC-VIRTUAL/other-esoteric-services",
+                parent: "/services/ESOTERIC-VIRTUAL",
+                faqs: [
+                    {
+                        question: "What other services are offered?",
+                        answer: "Custom spiritual guidance, workshops, and unique sessions."
+                    },
+                    {
+                        question: "Can services be customized?",
+                        answer: "Yes, tailored experiences available."
+                    },
+                    {
+                        question: "Are options available for all ages?",
+                        answer: "Yes, teens and adults."
+                    },
+                    {
+                        question: "Is supervision provided?",
+                        answer: "Yes, guidance and support included."
+                    },
+                    {
+                        question: "Can sessions be booked on weekends?",
+                        answer: "Yes, flexible scheduling options provided."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "ESOTERIC-INPERSON",
+        title: "ESOTERIC & TRANSFORMATIVE SERVICES – IN PERSON",
+        href: "/services/ESOTERIC-INPERSON",
+        description: "Hire a Tasker to help around the office!",
+        banner: "/_25. Esoteric - Personal.jpg",
+        "pageContent": {
+            "hero": {
+                "title": "ESOTERIC & TRANSFORMATIVE SERVICES – IN PERSON",
+                "description": "Find Your Local Guide for a Profound Personal Journey",
+                "banner": "/_25. Esoteric - Personal.jpg"
+            },
+            "about": {
+                "title": "About Our In-Person Esoteric Services",
+                "text": "On our platform, you can find the perfect guide to support your spiritual journey and personal transformation within your local community. We have gathered a wide range of intuitive professionals specializing in ancient and modern practices, from Tarot readings that illuminate your path to Energy Healing sessions that restore your balance. This diverse network ensures you can find an empathetic expert whose gifts and methods resonate with your unique energy, ready to facilitate deep, transformative work in a dedicated and sacred space.",
+                "title2": "Find the Right Local Guide for Your Transformative Path",
+                "text1": "Our platform simplifies your quest with a directory intuitively organized by specialization, authentic traditions, and proximity to you. This allows you to easily find and select a specialist based on the specific guidance you require and a location that fosters a true sense of sanctuary. The in-person format is essential for this profound work, facilitating a stronger energetic connection and immediate, embodied healing. It turns your local area into a landscape of potential awakening. The purpose is simple: connecting you with the right guide and the right practice, right where you are, to support your most meaningful transformations."
+            },
+            "cardsSection": [
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/art-therapy"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/body-therapy"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/breathwork-practices"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/energy-healing-bodywork"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/mindfulness-transformation"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/past-life-regression-therapy"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/retreats"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/rituals-ceremonies"
+                },
+                {
+                    "image": "/15.png",
+                    "href": "/services/ESOTERIC-INPERSON/other-esoteric-services"
+                }
+            ],
+            "photoSection": {
+                "image": "/_25. Esoteric - Personal.jpg",
+                "heading": "Immersive Local Experiences for Spiritual Growth",
+                "text": "Hands-on, in-person experiences including art therapy, energy work, breathwork, spiritual coaching, and retreats designed to empower and transform your personal journey."
+            }
+        },
+        subServices: [
+            {
+                name: "Art Therapy",
+                href: "/services/ESOTERIC-INPERSON/art-therapy",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What types of art therapy are offered?",
+                        answer: "Painting, drawing, and creative expression sessions."
+                    },
+                    {
+                        question: "Are sessions one-on-one?",
+                        answer: "Yes, personalized in-person sessions."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, suitable for all skill levels."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 60 minutes."
+                    },
+                    {
+                        question: "Can group sessions be arranged?",
+                        answer: "Yes, small group workshops available."
+                    }
+                ]
+            },
+            {
+                name: "Body Therapy",
+                href: "/services/ESOTERIC-INPERSON/body-therapy",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "Which therapies are included?",
+                        answer: "Massage, reflexology, and physical relaxation techniques."
+                    },
+                    {
+                        question: "Are sessions personalized?",
+                        answer: "Yes, tailored to individual needs."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, all levels welcome."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Usually 45–60 minutes."
+                    },
+                    {
+                        question: "Are sessions suitable for everyone?",
+                        answer: "Yes, suitable for adults and teens."
+                    }
+                ]
+            },
+            {
+                name: "Breathwork Practices",
+                href: "/services/ESOTERIC-INPERSON/breathwork-practices",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What techniques are taught?",
+                        answer: "Meditative breathing, pranayama, and stress relief exercises."
+                    },
+                    {
+                        question: "Are sessions in-person?",
+                        answer: "Yes, guided in-person sessions."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, beginners are welcome."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 45–60 minutes."
+                    },
+                    {
+                        question: "Are follow-up sessions recommended?",
+                        answer: "Yes, optional series are available."
+                    }
+                ]
+            },
+            {
+                name: "Energy Healing & Bodywork",
+                href: "/services/ESOTERIC-INPERSON/energy-healing-bodywork",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "Which modalities are included?",
+                        answer: "Reiki, chakra balancing, and physical energy techniques."
+                    },
+                    {
+                        question: "Are sessions one-on-one?",
+                        answer: "Yes, personalized in-person sessions."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, open for beginners."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 60 minutes."
+                    },
+                    {
+                        question: "Are follow-ups available?",
+                        answer: "Yes, additional sessions can be booked."
+                    }
+                ]
+            },
+            {
+                name: "Mindfulness & Transformation",
+                href: "/services/ESOTERIC-INPERSON/mindfulness-transformation",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What practices are included?",
+                        answer: "Meditation, awareness exercises, and self-growth activities."
+                    },
+                    {
+                        question: "Are sessions in-person?",
+                        answer: "Yes, guided workshops are conducted."
+                    },
+                    {
+                        question: "Can beginners join?",
+                        answer: "Yes, suitable for all levels."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "30–60 minutes depending on the program."
+                    },
+                    {
+                        question: "Are follow-ups available?",
+                        answer: "Yes, ongoing sessions can be booked."
+                    }
+                ]
+            },
+            {
+                name: "Past Life Regression Therapy",
+                href: "/services/ESOTERIC-INPERSON/past-life-regression-therapy",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What is past life regression?",
+                        answer: "A guided process to explore previous life experiences."
+                    },
+                    {
+                        question: "Are sessions in-person?",
+                        answer: "Yes, conducted at the center."
+                    },
+                    {
+                        question: "Is prior experience required?",
+                        answer: "No, beginners welcome."
+                    },
+                    {
+                        question: "How long is each session?",
+                        answer: "Typically 60–90 minutes."
+                    },
+                    {
+                        question: "Are follow-up sessions recommended?",
+                        answer: "Yes, additional sessions can deepen experience."
+                    }
+                ]
+            },
+            {
+                name: "Retreats",
+                href: "/services/ESOTERIC-INPERSON/retreats",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What types of retreats are offered?",
+                        answer: "Wellness, mindfulness, and transformation retreats."
+                    },
+                    {
+                        question: "Are retreats in-person?",
+                        answer: "Yes, immersive on-site experiences."
+                    },
+                    {
+                        question: "Do I need prior experience?",
+                        answer: "No, suitable for beginners and advanced participants."
+                    },
+                    {
+                        question: "How long are retreats?",
+                        answer: "Varies from 1 day to multiple days."
+                    },
+                    {
+                        question: "Are accommodations provided?",
+                        answer: "Yes, depending on the retreat package."
+                    }
+                ]
+            },
+            {
+                name: "Rituals & Ceremonies",
+                href: "/services/ESOTERIC-INPERSON/rituals-ceremonies",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "Which rituals are offered?",
+                        answer: "Blessings, intention-setting, and spiritual ceremonies."
+                    },
+                    {
+                        question: "Are sessions in-person?",
+                        answer: "Yes, guided on-site sessions."
+                    },
+                    {
+                        question: "Can rituals be customized?",
+                        answer: "Yes, according to your spiritual needs."
+                    },
+                    {
+                        question: "Are group sessions available?",
+                        answer: "Yes, families or small groups can join."
+                    },
+                    {
+                        question: "Are materials provided?",
+                        answer: "Yes, any kits or props needed are included."
+                    }
+                ]
+            },
+            {
+                name: "Other Esoteric Services",
+                href: "/services/ESOTERIC-INPERSON/other-esoteric-services",
+                parent: "/services/ESOTERIC-INPERSON",
+                faqs: [
+                    {
+                        question: "What other services are offered?",
+                        answer: "Custom spiritual guidance, workshops, and unique sessions."
+                    },
+                    {
+                        question: "Can services be customized?",
+                        answer: "Yes, tailored experiences available."
+                    },
+                    {
+                        question: "Are options available for all ages?",
+                        answer: "Yes, teens and adults."
+                    },
+                    {
+                        question: "Is supervision provided?",
+                        answer: "Yes, guidance and support included."
+                    },
+                    {
+                        question: "Can sessions be booked on weekends?",
+                        answer: "Yes, flexible scheduling options provided."
+                    }
+                ]
+            }
+        ]
+    }
+];
+const __TURBOPACK__default__export__ = ServicesData;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/components/Navbar.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>Navbar
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-client] (ecmascript) <export default as ChevronDown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$ServicesLinks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/data/ServicesLinks.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function Navbar() {
+    var _session_user_firstName;
+    _s();
+    const [isMobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isServicesOpen, setServicesOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isProfileOpen, setProfileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const { data: session } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSession"])();
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    const dropdownRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const btnPrimary = "px-4 py-2 rounded-md text-sm font-semibold bg-slate-800 text-white hover:bg-slate-900 transition-colors";
+    /* -------------------------------------- */ /* 🔥 CLOSE SERVICES DROPDOWN ON ROUTE CHANGE */ /* -------------------------------------- */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Navbar.useEffect": ()=>{
+            setServicesOpen(false);
+            setProfileOpen(false);
+        }
+    }["Navbar.useEffect"], [
+        pathname
+    ]);
+    /* -------------------------------------- */ /* 🔥 CLOSE DROPDOWN ON OUTSIDE CLICK */ /* -------------------------------------- */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Navbar.useEffect": ()=>{
+            function handleClickOutside(e) {
+                if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+                    setServicesOpen(false);
+                }
+            }
+            document.addEventListener("mousedown", handleClickOutside);
+            return ({
+                "Navbar.useEffect": ()=>document.removeEventListener("mousedown", handleClickOutside)
+            })["Navbar.useEffect"];
+        }
+    }["Navbar.useEffect"], []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+        className: "w-full border-b border-slate-200 bg-white/80 backdrop-blur-lg sticky top-0 z-40",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center cursor-pointer",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/",
+                            className: "flex-shrink-0",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/newlogo.png",
+                                alt: "GoZiply Logo",
+                                width: 140,
+                                height: 35,
+                                priority: true
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/Navbar.js",
+                            lineNumber: 52,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center gap-x-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                className: "hidden md:flex items-center gap-x-6",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative",
+                                        ref: dropdownRef,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                onClick: ()=>{
+                                                    setServicesOpen(!isServicesOpen);
+                                                    setProfileOpen(false);
+                                                },
+                                                className: "cursor-pointer flex items-center gap-1 text-sm font-medium text-slate-700 hover:text-slate-900",
+                                                children: [
+                                                    "Services",
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                                                        size: 16,
+                                                        className: "transition-transform ".concat(isServicesOpen ? "rotate-180" : "")
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/components/Navbar.js",
+                                                        lineNumber: 76,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 68,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                                                children: isServicesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "max-h-64 overflow-y-auto",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ServicesDropdown, {
+                                                        close: ()=>setServicesOpen(false)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/components/Navbar.js",
+                                                        lineNumber: 87,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/components/Navbar.js",
+                                                    lineNumber: 86,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 84,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 67,
+                                        columnNumber: 13
+                                    }, this),
+                                    session ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                onClick: ()=>{
+                                                    setProfileOpen(!isProfileOpen);
+                                                    setServicesOpen(false);
+                                                },
+                                                className: "cursor-pointer h-9 w-9 rounded-full bg-slate-200 flex items-center justify-center font-semibold text-slate-700",
+                                                children: (_session_user_firstName = session.user.firstName) === null || _session_user_firstName === void 0 ? void 0 : _session_user_firstName.charAt(0)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 96,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                                                children: isProfileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProfileDropdown, {}, void 0, false, {
+                                                    fileName: "[project]/src/app/components/Navbar.js",
+                                                    lineNumber: 106,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 105,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 95,
+                                        columnNumber: 15
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/auth",
+                                                className: "text-sm font-medium text-slate-700 hover:text-slate-900",
+                                                children: "Log in"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 111,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/auth/signup",
+                                                className: btnPrimary,
+                                                children: "Market yourself"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 117,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 65,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "cursor-pointer md:hidden",
+                                onClick: ()=>{
+                                    setMobileMenuOpen(true);
+                                    setServicesOpen(false);
+                                    setProfileOpen(false);
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
+                                    size: 24
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Navbar.js",
+                                    lineNumber: 133,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 125,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/components/Navbar.js",
+                lineNumber: 49,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                children: isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MobileMenu, {
+                    closeMenu: ()=>setMobileMenuOpen(false),
+                    session: session
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Navbar.js",
+                    lineNumber: 141,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Navbar.js",
+                lineNumber: 139,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/components/Navbar.js",
+        lineNumber: 48,
+        columnNumber: 5
+    }, this);
+}
+_s(Navbar, "UlP4Yqdzg6vfmM1huJf5hCvs4zg=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSession"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
+    ];
+});
+_c = Navbar;
+/* -------------------------------------------------------------------------- */ /*                   UPDATED Services Dropdown (with close prop)              */ /* -------------------------------------------------------------------------- */ const ServicesDropdown = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        initial: {
+            opacity: 0,
+            y: -6
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        exit: {
+            opacity: 0,
+            y: -6
+        },
+        transition: {
+            duration: 0.18,
+            ease: "easeOut"
+        },
+        className: " absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-xl shadow-slate-300/40 border border-slate-200 z-50 ",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "py-2 flex flex-col",
+            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$ServicesLinks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    href: service.href,
+                    className: " px-4 py-2 text-sm text-slate-700 hover:bg-slate-100 transition ",
+                    children: service.title
+                }, service.id, false, {
+                    fileName: "[project]/src/app/components/Navbar.js",
+                    lineNumber: 173,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)))
+        }, void 0, false, {
+            fileName: "[project]/src/app/components/Navbar.js",
+            lineNumber: 171,
+            columnNumber: 5
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/app/components/Navbar.js",
+        lineNumber: 156,
+        columnNumber: 3
+    }, ("TURBOPACK compile-time value", void 0));
+_c1 = ServicesDropdown;
+/* -------------------------------------------------------------------------- */ /*                              Profile Dropdown                               */ /* -------------------------------------------------------------------------- */ const ProfileDropdown = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        initial: {
+            opacity: 0,
+            y: -10
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        exit: {
+            opacity: 0,
+            y: -10
+        },
+        className: "absolute right-0 top-full mt-2 w-48 origin-top-right rounded-xl bg-white shadow-lg border border-slate-200",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+            className: "py-2",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/account",
+                        className: "cursor-pointer block px-4 py-2 text-sm text-slate-700 hover:bg-slate-100",
+                        children: "Account"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 203,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Navbar.js",
+                    lineNumber: 202,
+                    columnNumber: 7
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    className: "my-1 h-px bg-slate-200"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Navbar.js",
+                    lineNumber: 210,
+                    columnNumber: 7
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["signOut"])(),
+                        className: "cursor-pointer w-full text-left block px-4 py-2 text-sm text-red-600 hover:bg-red-50",
+                        children: "Logout"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 212,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Navbar.js",
+                    lineNumber: 211,
+                    columnNumber: 7
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/components/Navbar.js",
+            lineNumber: 201,
+            columnNumber: 5
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/app/components/Navbar.js",
+        lineNumber: 195,
+        columnNumber: 3
+    }, ("TURBOPACK compile-time value", void 0));
+_c2 = ProfileDropdown;
+/* -------------------------------------------------------------------------- */ /*                               Mobile Menu                                   */ /* -------------------------------------------------------------------------- */ const MobileMenu = (param)=>{
+    let { closeMenu, session } = param;
+    _s1();
+    const [isMobileServicesOpen, setMobileServicesOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isClient, setIsClient] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "MobileMenu.useEffect": ()=>{
+            setIsClient(true);
+        }
+    }["MobileMenu.useEffect"], []);
+    const menuContent = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    opacity: 0
+                },
+                animate: {
+                    opacity: 1
+                },
+                exit: {
+                    opacity: 0
+                },
+                className: "fixed inset-0 bg-black/50 z-40",
+                onClick: closeMenu
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Navbar.js",
+                lineNumber: 238,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    x: "100%"
+                },
+                animate: {
+                    x: 0
+                },
+                exit: {
+                    x: "100%"
+                },
+                transition: {
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 30
+                },
+                className: "fixed top-0 right-0 h-full w-4/5 max-w-sm bg-white z-50 p-6 flex flex-col",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: closeMenu,
+                        className: "cursor-pointer self-end mb-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                            size: 24
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/Navbar.js",
+                            lineNumber: 255,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 254,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "space-y-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>setMobileServicesOpen(!isMobileServicesOpen),
+                                        className: "cursor-pointer w-full flex justify-between items-center text-lg font-medium",
+                                        children: [
+                                            "Services",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                                                size: 20,
+                                                className: "transition-transform ".concat(isMobileServicesOpen ? "rotate-180" : "")
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 266,
+                                                columnNumber: 15
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 261,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    isMobileServicesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-2 pl-4 border-l-2 border-slate-200 max-h-48 overflow-y-auto",
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$ServicesLinks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: service.href,
+                                                onClick: closeMenu,
+                                                className: "block py-2 text-slate-700",
+                                                children: service.title
+                                            }, service.id, false, {
+                                                fileName: "[project]/src/app/components/Navbar.js",
+                                                lineNumber: 277,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 275,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 260,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            session ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/dashboard",
+                                        onClick: closeMenu,
+                                        className: "cursor-pointer block text-lg font-medium",
+                                        children: "Dashboard"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 293,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/account",
+                                        onClick: closeMenu,
+                                        className: "cursor-pointer block text-lg font-medium",
+                                        children: "Account"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 300,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["signOut"])(),
+                                        className: "cursor-pointer block w-full text-left text-lg font-medium text-red-600",
+                                        children: "Logout"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 307,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/auth",
+                                        onClick: closeMenu,
+                                        className: "cursor-pointer block text-lg font-medium",
+                                        children: "Log in"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 316,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/auth/signup",
+                                        onClick: closeMenu,
+                                        className: "cursor-pointer block mt-6 text-center text-lg font-semibold py-2 rounded-md bg-slate-800 text-white",
+                                        children: "Market yourself"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Navbar.js",
+                                        lineNumber: 323,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 258,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/components/Navbar.js",
+                lineNumber: 247,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true);
+    return isClient ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"])(menuContent, document.body) : null;
+};
+_s1(MobileMenu, "qsGWi+YO8KlhUEUnvKmjwNfz3yQ=");
+_c3 = MobileMenu;
+var _c, _c1, _c2, _c3;
+__turbopack_context__.k.register(_c, "Navbar");
+__turbopack_context__.k.register(_c1, "ServicesDropdown");
+__turbopack_context__.k.register(_c2, "ProfileDropdown");
+__turbopack_context__.k.register(_c3, "MobileMenu");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/providers.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>Providers
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [app-client] (ecmascript)");
+"use client";
+;
+;
+function Providers(param) {
+    let { children } = param;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SessionProvider"], {
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/app/providers.js",
+        lineNumber: 6,
+        columnNumber: 10
+    }, this);
+}
+_c = Providers;
+var _c;
+__turbopack_context__.k.register(_c, "Providers");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/components/Loader.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>__TURBOPACK__default__export__
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+;
+;
+const Loader = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full h-screen flex justify-center items-center",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "blob"
+        }, void 0, false, {
+            fileName: "[project]/src/app/components/Loader.js",
+            lineNumber: 7,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/app/components/Loader.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_c = Loader;
+const __TURBOPACK__default__export__ = Loader;
+var _c;
+__turbopack_context__.k.register(_c, "Loader");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/components/SessionGuard.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>SessionGuard
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/components/Loader.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+function SessionGuard(param) {
+    let { children } = param;
+    _s();
+    const { data: session, status } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSession"])();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    // 🚨 Pages that require authentication
+    const protectedRoutes = [
+        "/dashboard",
+        "/account"
+    ];
+    // 🚨 Any route starting with "/auth" is considered an auth page
+    const isAuthPage = pathname.startsWith("/auth");
+    const isProtectedPage = protectedRoutes.some((route)=>pathname.startsWith(route));
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "SessionGuard.useEffect": ()=>{
+            if (status === "authenticated" && isAuthPage) {
+                // 🚨 Already logged in → redirect away from auth pages
+                router.replace("/dashboard");
+            } else if (status === "unauthenticated" && isProtectedPage) {
+                // 🚨 Not logged in → block protected pages
+                router.replace("/auth/login");
+            }
+        }
+    }["SessionGuard.useEffect"], [
+        status,
+        isAuthPage,
+        isProtectedPage,
+        router
+    ]);
+    // 🚨 Always block rendering until session is resolved
+    if (status === "loading") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        fileName: "[project]/src/app/components/SessionGuard.js",
+        lineNumber: 33,
+        columnNumber: 36
+    }, this);
+    // 🚨 Auth pages → allow if not logged in
+    if (isAuthPage && status === "unauthenticated") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: children
+    }, void 0, false);
+    // 🚨 Protected pages → allow only if logged in
+    if (isProtectedPage && status === "authenticated" && session) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: children
+    }, void 0, false);
+    // 🚨 Public pages → allow always
+    if (!isProtectedPage && !isAuthPage) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: children
+    }, void 0, false);
+    // 🚨 Block everything else (safety fallback)
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        fileName: "[project]/src/app/components/SessionGuard.js",
+        lineNumber: 46,
+        columnNumber: 10
+    }, this);
+}
+_s(SessionGuard, "MbtetkQSv6RYAZp3sX7+G/B+N4A=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSession"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
+    ];
+});
+_c = SessionGuard;
+var _c;
+__turbopack_context__.k.register(_c, "SessionGuard");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/components/Footer.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>Footer
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+/* ====== DATA ====== */ const discover = [
+    [
+        "Become a Tasker",
+        "/become-a-tasker"
+    ],
+    [
+        "Services By City",
+        "/services-cities"
+    ],
+    [
+        "Services Nearby",
+        "/services"
+    ],
+    [
+        "All Services",
+        "/services"
+    ],
+    [
+        "Elite Taskers",
+        "/elite-taskers"
+    ]
+];
+const company = [
+    [
+        "About Us",
+        "/about-us"
+    ],
+    [
+        "Careers",
+        "/Careers"
+    ],
+    [
+        "Partner with GoZiply",
+        "/partners"
+    ],
+    [
+        "Press",
+        "/press"
+    ],
+    [
+        "GoZiply for Good",
+        "/for-good"
+    ],
+    [
+        "Blog",
+        "/blog"
+    ],
+    [
+        "Terms & Privacy",
+        "/terms"
+    ],
+    [
+        "California Consumer Notice",
+        "/ccpa"
+    ],
+    [
+        "Do Not Sell My Personal Information",
+        "/do-not-sell"
+    ],
+    [
+        "Legal",
+        "/legal"
+    ]
+];
+/* ====== UI PARTS ====== */ function Social(param) {
+    let { href, label, children } = param;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        href: href,
+        "aria-label": label,
+        className: "inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition hover:bg-white/25 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60",
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/app/components/Footer.js",
+        lineNumber: 32,
+        columnNumber: 5
+    }, this);
+}
+_c = Social;
+function StoreBadge(param) {
+    let { type = "apple", href = "/apps" } = param;
+    const isApple = type === "apple";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        href: href,
+        className: "inline-flex items-center gap-3 rounded-xl bg-black px-4 py-2.5 text-white ring-1 ring-white/10 transition hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60",
+        "aria-label": isApple ? "Download on the App Store" : "Get it on Google Play",
+        children: [
+            isApple ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                width: "22",
+                height: "22",
+                "aria-hidden": "true",
+                className: "shrink-0",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    fill: "currentColor",
+                    d: "M16.5 12.2c0-2.1 1.7-3.1 1.7-3.1-1-.1-2 .6-2.6 1.2-.6.6-1.1 1.5-1.1 2.5 0 1 .5 2 1.1 2.6.6.6 1.6 1.2 2.6 1.1 0 0-1.7-.9-1.7-3.1zM13.6 8.8c.6-.7 1-1.7.8-2.7-.9.1-1.8.6-2.4 1.3-.6.6-1 1.6-.9 2.5.9.1 1.9-.5 2.5-1.1zM12.1 7.7c1.2-1.5 2.9-1.6 2.9-1.6S14 4 12.4 4C10.9 4 10 4.9 9.2 6c-.8 1.2-1.4 3.1-.6 4.8.6 1.4 2.1 3.2 3.5 3.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.6.7 2.9.7 1.4 0 2.2-1.5 2.6-2.1-2.5-1-2.3-4.7-5.7-4.7-.9 0-1.8.4-2.6 1.5z"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Footer.js",
+                    lineNumber: 52,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 51,
+                columnNumber: 9
+            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                width: "22",
+                height: "22",
+                "aria-hidden": "true",
+                className: "shrink-0",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        fill: "currentColor",
+                        d: "M3 2.6v18.8c0 .5.6.8 1 .5l10.5-9.4c.3-.3.3-.7 0-1L4 2.1c-.4-.4-1-.1-1 .5z"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 59,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        fill: "#34A853",
+                        d: "M20.8 13.2c.4-.2.4-.8 0-1l-2.3-1.3-2 2 2 2 2.3-1.7z"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 60,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        fill: "#FBBC05",
+                        d: "M13.9 8.8 16.5 7l-12-4.9c-.3-.1-.5 0-.5.3v1.9l9.9 4.5z"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 61,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        fill: "#4285F4",
+                        d: "M4 20.6c0 .3.2.4.5.3l12-4.9-2.6-1.8L4 18.7v1.9z"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 62,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 58,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "leading-tight",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "block text-[11px] opacity-80",
+                        children: isApple ? "Download on the" : "GET IT ON"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 66,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "block text-[15px] font-semibold",
+                        children: isApple ? "App Store" : "Google Play"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 65,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/components/Footer.js",
+        lineNumber: 45,
+        columnNumber: 5
+    }, this);
+}
+_c1 = StoreBadge;
+function Footer() {
+    const year = new Date().getFullYear();
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        className: "bg-black text-white w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 pt-10",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-wrap items-center justify-between gap-4 border-b border-white/20 pb-5",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-3",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/newlogo.png",
+                                alt: "My Logo",
+                                width: 150,
+                                height: 60,
+                                className: "rounded-md object-contain p-1",
+                                priority: true
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Footer.js",
+                                lineNumber: 88,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/Footer.js",
+                            lineNumber: 86,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-wrap items-center gap-2 text-sm opacity-90",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "mr-1",
+                                    children: "Follow us! We're friendly:"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 100,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Social, {
+                                    href: "https://facebook.com",
+                                    label: "Facebook",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        viewBox: "0 0 24 24",
+                                        width: "18",
+                                        height: "18",
+                                        "aria-hidden": "true",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            fill: "currentColor",
+                                            d: "M22 12a10 10 0 1 0-11.6 9.9v-7H8.2V12h2.2V9.4c0-2.2 1.3-3.4 3.3-3.4.9 0 1.9.17 1.9.17v2.1h-1.1c-1.1 0-1.5.7-1.5 1.4V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 103,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 102,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 101,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Social, {
+                                    href: "https://x.com",
+                                    label: "Twitter / X",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        viewBox: "0 0 24 24",
+                                        width: "18",
+                                        height: "18",
+                                        "aria-hidden": "true",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            fill: "currentColor",
+                                            d: "M20.9 2.5 12.9 13l6.9 8.5h-2.8L11.7 14l-5 7.5H3.5l6.6-9.9L3.1 2.5h2.8l6 7.8 5.2-7.8h3.8z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 111,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 110,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 109,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Social, {
+                                    href: "https://instagram.com",
+                                    label: "Instagram",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        viewBox: "0 0 24 24",
+                                        width: "18",
+                                        height: "18",
+                                        "aria-hidden": "true",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            fill: "currentColor",
+                                            d: "M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 .001 10.001A5 5 0 0 0 12 7zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 116,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 115,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 114,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Social, {
+                                    href: "https://tiktok.com",
+                                    label: "TikTok",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        viewBox: "0 0 24 24",
+                                        width: "18",
+                                        height: "18",
+                                        "aria-hidden": "true",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            fill: "currentColor",
+                                            d: "M15 3c1.1 2.2 2.8 3.7 5 4v3c-2.2 0-3.9-.8-5-2v6.7c0 3.8-2.7 6.3-6 6.3S3 18.5 3 15.4 5.7 9 9 9c.7 0 1.5.1 2 .3V12c-.5-.2-1.1-.3-1.7-.3-1.9 0-3.3 1.3-3.3 3.5s1.4 3.5 3.3 3.5 3.4-1.2 3.4-3.3V3h2.3z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 124,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 123,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 122,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Social, {
+                                    href: "https://linkedin.com",
+                                    label: "LinkedIn",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        viewBox: "0 0 24 24",
+                                        width: "18",
+                                        height: "18",
+                                        "aria-hidden": "true",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            fill: "currentColor",
+                                            d: "M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9h4v12H3zM14.5 9c-2.2 0-3.5 1.2-4.1 2.3V9H6.5v12H10v-6.3c0-1.7.9-2.7 2.3-2.7 1.3 0 2 .9 2 .7V21h3.5v-7c0-3.7-2-5-3.3-5z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 132,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 131,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 130,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/components/Footer.js",
+                            lineNumber: 99,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/components/Footer.js",
+                    lineNumber: 85,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 84,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 py-10",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid gap-10 sm:grid-cols-2 lg:grid-cols-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                            "aria-labelledby": "ftr-discover",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    id: "ftr-discover",
+                                    className: "mb-3 text-base font-semibold",
+                                    children: "Discover"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 147,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "space-y-2",
+                                    children: discover.map((param)=>{
+                                        let [label, href] = param;
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: href,
+                                                className: "inline-block hover:underline hover:text-white transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 rounded",
+                                                children: label
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Footer.js",
+                                                lineNumber: 153,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, label, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 152,
+                                            columnNumber: 17
+                                        }, this);
+                                    })
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 150,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/components/Footer.js",
+                            lineNumber: 146,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                            "aria-labelledby": "ftr-company",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    id: "ftr-company",
+                                    className: "mb-3 text-base font-semibold",
+                                    children: "Company"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 166,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "space-y-2",
+                                    children: company.map((param)=>{
+                                        let [label, href] = param;
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: href,
+                                                className: "inline-block hover:underline hover:text-white transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 rounded",
+                                                children: label
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/Footer.js",
+                                                lineNumber: 172,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, label, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 171,
+                                            columnNumber: 17
+                                        }, this);
+                                    })
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 169,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/components/Footer.js",
+                            lineNumber: 165,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            "aria-labelledby": "ftr-app",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    id: "ftr-app",
+                                    className: "mb-3 text-base font-semibold",
+                                    children: "Download our app"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 185,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "opacity-90 leading-relaxed",
+                                    children: "Tackle your to-do list wherever you are with our mobile app."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 188,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-4 flex flex-wrap items-center gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StoreBadge, {
+                                            type: "apple"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 192,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StoreBadge, {
+                                            type: "google"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 193,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/components/Footer.js",
+                                    lineNumber: 191,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/components/Footer.js",
+                            lineNumber: 184,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/components/Footer.js",
+                    lineNumber: 144,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 143,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "border-t border-white/20",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 py-5",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-wrap items-center justify-between gap-4 text-sm opacity-90",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap items-center gap-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "rounded-md border border-white/25 px-3 py-1.5",
+                                        children: "Canada"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 204,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-white/60",
+                                        children: "•"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 205,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "rounded-md border border-white/25 px-3 py-1.5",
+                                        children: "English"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 206,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-white/60",
+                                        children: "•"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 207,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "rounded-md border border-white/25 px-3 py-1.5",
+                                        children: "Français"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 208,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-white/60",
+                                        children: "•"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 209,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "rounded-md border border-white/25 px-3 py-1.5",
+                                        children: "CAD"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 210,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Footer.js",
+                                lineNumber: 203,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                className: "flex flex-wrap items-center gap-5",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/terms",
+                                            className: "hover:underline hover:text-white",
+                                            children: "Terms"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 214,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 214,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/privacy",
+                                            className: "hover:underline hover:text-white",
+                                            children: "Privacy"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 215,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 215,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/cookies",
+                                            className: "hover:underline hover:text-white",
+                                            children: "Cookies"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Footer.js",
+                                            lineNumber: 216,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Footer.js",
+                                        lineNumber: 216,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Footer.js",
+                                lineNumber: 213,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: [
+                                    "© ",
+                                    year,
+                                    " TaskerCA"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Footer.js",
+                                lineNumber: 219,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/Footer.js",
+                        lineNumber: 202,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/Footer.js",
+                    lineNumber: 201,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Footer.js",
+                lineNumber: 200,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/components/Footer.js",
+        lineNumber: 82,
+        columnNumber: 5
+    }, this);
+}
+_c2 = Footer;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "Social");
+__turbopack_context__.k.register(_c1, "StoreBadge");
+__turbopack_context__.k.register(_c2, "Footer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/context/TaskContext.js.js [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "TaskContext": ()=>TaskContext,
+    "default": ()=>TaskProvider
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+const TaskContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(null);
+const initialState = {
+    categories: {
+        Assembly: {
+            items: [
+                "General Furniture Assembly",
+                "IKEA Assembly",
+                "Crib Assembly",
+                "PAX Assembly",
+                "Bookshelf Assembly",
+                "Desk Assembly"
+            ],
+            img: "/assets/furnitureAssembly.jpg"
+        },
+        Mounting: {
+            items: [
+                "Hang Art,Mirror & Decor",
+                "Install blinds and window treatment",
+                "Mount and Anchor Furniture",
+                "Install Shelves,Rods & Hooks",
+                "Other Mounting",
+                "TV Mounting"
+            ],
+            img: "/assets/mount-tv-on-wall.jpg"
+        },
+        Moving: {
+            items: [
+                "Help Moving",
+                "Truck-Assisted Help Moving",
+                "Trash & Furniture Removal",
+                "Rearrange Furniture",
+                "Junk Haul Away"
+            ],
+            img: "/assets/HelpMoving.jpg"
+        },
+        Cleaning: {
+            items: [
+                "General Cleaning",
+                "Spring Cleaning",
+                "Apartment Cleaning",
+                "Deep Cleaning",
+                "Garage Cleaning",
+                "Move Out Clean"
+            ],
+            img: "/assets/Cleaning.jpg"
+        },
+        "Outdoor Help": {
+            items: [
+                "Yard Work",
+                "Lawn Care",
+                "Weed Removal",
+                "Mulching",
+                "Gardening Services",
+                "Landscaping",
+                "Lawn Mowing",
+                "Branch & Hedge Trimming"
+            ],
+            img: "/assets/mulching.jpg"
+        },
+        "Home Repairs": {
+            items: [
+                "Wall Repair",
+                "Sealing & Caulking",
+                "Appliance Installation & Repairs",
+                "Door, Cabinet, & Furniture Repair",
+                "Window & Blinds Repair",
+                "Flooring & Tiling Help",
+                "Electrical Help",
+                "Plumbing Help",
+                "Light Carpentry"
+            ],
+            img: "/assets/HomeRepair.jpg"
+        },
+        Painting: {
+            items: [
+                "Indoor Painting",
+                "Wallpapering",
+                "Outdoor Painting",
+                "Concrete & Brick Painting",
+                "Accent Wall Painting",
+                "Wallpaper Removal"
+            ],
+            img: "/assets/painting.jpg"
+        },
+        Trending: {
+            items: [
+                "General Furniture Assembly",
+                "General Mounting",
+                "TV Mounting",
+                "Help Moving",
+                "Cleaning",
+                "Donation Drop Off",
+                "Personal Assistant"
+            ],
+            img: "/assets/PersonalAssistance.jpg"
+        }
+    },
+    // mapping icons
+    categoryIcons: {
+        Assembly: "PuzzlePieceIcon",
+        Mounting: "WrenchIcon",
+        Moving: "TruckIcon",
+        Cleaning: "SparklesIcon",
+        "Outdoor Help": "SunIcon",
+        "Home Repairs": "WrenchScrewdriverIcon",
+        Painting: "PaintBrushIcon",
+        Trending: "FireIcon"
+    },
+    categoryInfo: {
+        Assembly: {
+            description: "Skip the frustration — let us assemble your furniture quickly and correctly.",
+            points: [
+                "Expertly assemble beds, cribs, wardrobes, desks, and more.",
+                "Specialized in IKEA PAX and other modular furniture.",
+                "Ensure stability and safe setup for every piece.",
+                "Now trending: Smart desks, standing tables, and modular bookshelves."
+            ]
+        },
+        Mounting: {
+            description: "Professional mounting services to keep your space secure and stylish.",
+            points: [
+                "Securely mount your TV, shelves, art, mirrors, dressers, and more.",
+                "Install blinds, window treatments, and curtain rods with precision.",
+                "Anchor furniture to keep your home child- and pet-safe.",
+                "Now trending: Gallery walls, art TVs, and wraparound bookcases."
+            ]
+        },
+        Moving: {
+            description: "Moving made simple — strong, reliable help for heavy lifting.",
+            points: [
+                "Assist with apartment, home, and office moves.",
+                "Truck-assisted moving and hauling available.",
+                "Safely rearrange furniture and handle bulky items.",
+                "Now trending: Eco-friendly donation drop-offs and junk removal."
+            ]
+        },
+        Cleaning: {
+            description: "Fresh spaces, stress-free cleaning tailored to your needs.",
+            points: [
+                "Deep clean kitchens, bathrooms, and living areas.",
+                "Spring cleaning and seasonal refreshes.",
+                "Move-in / Move-out cleaning for a spotless handover.",
+                "Now trending: Green cleaning and allergen-free services."
+            ]
+        },
+        "Outdoor Help": {
+            description: "Keep your outdoor spaces fresh, green, and welcoming.",
+            points: [
+                "Lawn mowing, edging, and full yard maintenance.",
+                "Weed removal, mulching, and seasonal prep.",
+                "Trim trees, hedges, and remove debris safely.",
+                "Now trending: Urban gardening and eco-landscaping."
+            ]
+        },
+        "Home Repairs": {
+            description: "From small fixes to essential repairs — we’ve got you covered.",
+            points: [
+                "Repair walls, doors, windows, and blinds.",
+                "Handle electrical and plumbing essentials.",
+                "Install appliances and perform light carpentry.",
+                "Now trending: Smart home device installations."
+            ]
+        },
+        Painting: {
+            description: "Bring color and life into your home with professional painting services.",
+            points: [
+                "Indoor and outdoor painting for any space.",
+                "Accent wall designs and wallpapering.",
+                "Concrete, brick, and textured finishes.",
+                "Now trending: Bold accent walls and modern wallpaper removal."
+            ]
+        },
+        Trending: {
+            description: "Our most popular services that everyone’s booking right now.",
+            points: [
+                "Furniture assembly and TV mounting made easy.",
+                "Reliable moving and deep cleaning help.",
+                "Donation drop-offs and organizing services.",
+                "Now trending: Minimalist décor setups and gallery walls."
+            ]
+        }
+    },
+    selectedCategory: "Assembly"
+};
+function reducer(state, action) {
+    switch(action.type){
+        case "SET_CATEGORY":
+            return {
+                ...state,
+                selectedCategory: action.payload
+            };
+        default:
+            return state;
+    }
+}
+function TaskProvider(param) {
+    let { children } = param;
+    _s();
+    const [state, dispatch] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducer"])(reducer, initialState);
+    const value = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "TaskProvider.useMemo[value]": ()=>({
+                state,
+                dispatch
+            })
+    }["TaskProvider.useMemo[value]"], [
+        state
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TaskContext.Provider, {
+        value: value,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/app/context/TaskContext.js.js",
+        lineNumber: 208,
+        columnNumber: 5
+    }, this);
+}
+_s(TaskProvider, "qvH2RyWsybU3q3wEgwaMp2xbVH0=");
+_c = TaskProvider;
+var _c;
+__turbopack_context__.k.register(_c, "TaskProvider");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+}]);
+
+//# sourceMappingURL=src_app_be91a1ac._.js.map

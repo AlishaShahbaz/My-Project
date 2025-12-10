@@ -1,0 +1,180 @@
+import mongoose from "mongoose";
+// ✅ Location sub-schema (no own _id)
+// Skill sub-schema
+const skillSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      trim: true,
+      required: true,
+    },
+    rate: {
+      type: Number,
+      required: true,
+      min: 0,
+      default: 0,
+    },
+  },
+  { _id: false }
+);
+const locationSchema = new mongoose.Schema(
+  {
+    lat: {
+      type: Number,
+      required: [true, "Latitude is required"],
+      min: [-90, "Latitude must be greater than or equal to -90"],
+      max: [90, "Latitude must be less than or equal to 90"],
+    },
+    lng: {
+      type: Number,
+      required: [true, "Longitude is required"],
+      min: [-180, "Longitude must be greater than or equal to -180"],
+      max: [180, "Longitude must be less than or equal to 180"],
+    },
+    fullAddress: {
+      type: String,
+      trim: true,
+    },
+    city: {
+      type: String,
+      trim: true,
+    },
+    state: {
+      type: String,
+      trim: true,
+    },
+    country: {
+      type: String,
+      trim: true,
+    },
+    zipCode: {
+      type: String,
+      trim: true,
+    },
+  },
+  { _id: false }
+);
+const userSchema = new mongoose.Schema(
+  {
+    // 👤 Basic Info
+    firstName: { type: String, required: true, trim: true, maxlength: 50 },
+    lastName: { type: String, required: true, trim: true, maxlength: 50 },
+    username: { type: String, required: true, unique: true, trim: true, lowercase: true },
+    email: { type: String, required: true, unique: true, lowercase: true, trim: true },
+    countryCode: { type: String, required: true },
+    phone: { type: String, required: true, trim: true },
+
+    // 💡 Role
+    role: { type: String, enum: ["customer", "tasker", "admin"], default: "tasker" },
+
+    password: { type: String, required: true, minlength: 8 },
+    zipCode: { type: String, trim: true },
+
+    // ✅ Verification
+    isVerified: { type: Boolean, default: false },
+    isApproved: { type: Boolean, default: false },
+    otp: { type: String },
+    otpExpiresAt: { type: Date },
+
+    // 🧰 Tasker Details - UPDATED
+    city: { 
+      type: String,
+      trim: true
+    },
+    fullAddress: { type: String, trim: true, default: "" },
+    skills: {
+      type: [skillSchema],
+      default: [],
+    },
+    availability: { type: Boolean, default: true },
+    bio: { 
+      type: String, 
+      trim: true,
+      maxlength: 1000,
+      default: ""
+    },
+
+    // 📅 Availability Timing - NEW (چونکہ frontend میں یہ موجود ہے)
+    availabilityTiming: {
+      startWork: { 
+        type: String, 
+        enum: ["today", "tomorrow", "in_one_week"], 
+        default: "today" 
+      },
+      preferredTime: { 
+        type: [String], 
+        enum: ["morning", "afternoon", "evening"], 
+        default: ["morning", "afternoon", "evening"] 
+      },
+      availableDays: { 
+        type: [String], 
+        enum: ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"], 
+        default: ["monday","tuesday","wednesday","thursday","friday"]
+      }
+    },
+
+    // ⏰ Working Hours - NEW (چونکہ frontend میں یہ موجود ہے)
+    workingHours: {
+      hoursPerDay: { 
+        type: Number, 
+        min: 1, 
+        max: 24, 
+        default: 8
+      },
+      daysPerWeek: { 
+        type: Number, 
+        min: 1, 
+        max: 7, 
+        default: 5
+      },
+      totalHoursPerWeek: { 
+        type: Number, 
+        min: 1, 
+        max: 168, 
+        default: 40
+      }
+    },
+
+    hourlyRate: { type: Number, default: 0 },
+    rating: { type: Number, default: 0, min: 0, max: 5 },
+    reviewsCount: { type: Number, default: 0 },
+
+    profileImage: { type: String },
+
+    twoFA: { type: Boolean, default: false },
+    twoFASecret: { type: String },
+
+    identityVerification: {
+      idType: { type: String, enum: ["CNIC", "Passport", "DriverLicense", "Other"], default: "CNIC" },
+      idNumber: { type: String, trim: true },
+      idImageFront: { type: String },
+      idImageBack: { type: String },
+      status: { type: String, enum: ["pending", "approved", "rejected"], default: "pending" },
+      verifiedAt: { type: Date },
+    },
+
+    approvedAt: { type: Date },
+    approvedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+    location:{
+      type:locationSchema,
+    }
+
+  },
+  { timestamps: true }
+);
+
+// Indexes
+userSchema.index({ role: 1, isApproved: 1, availability: 1 });
+userSchema.index({ "availabilityTiming.preferredTime": 1 }); // NEW
+userSchema.index({ "availabilityTiming.availableDays": 1 }); // NEW
+userSchema.index({ "workingHours.totalHoursPerWeek": 1 }); // NEW
+userSchema.index({ city: 1 });
+userSchema.index({ skills: 1 });
+
+// Virtual
+userSchema.virtual("fullName").get(function () {
+  return `${this.firstName} ${this.lastName}`;
+});
+
+const User = mongoose.models.User || mongoose.model("User", userSchema);
+export default User;

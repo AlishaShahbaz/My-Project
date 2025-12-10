@@ -1,0 +1,47 @@
+/* [project]/src/app/components/style.css [app-client] (css) */
+.blob {
+  filter: blur(5.6px) contrast(10);
+  mix-blend-mode: darken;
+  background: #fff;
+  width: 112px;
+  height: 112px;
+  padding: 11.2px;
+  display: grid;
+}
+
+.blob:before, .blob:after {
+  content: "";
+  background: #0b2a88;
+  grid-area: 1 / 1;
+  width: 44.8px;
+  height: 44.8px;
+  animation: 2s infinite blob-rhf26m;
+}
+
+.blob:after {
+  animation-delay: -1s;
+}
+
+@keyframes blob-rhf26m {
+  0% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(100%);
+  }
+
+  50% {
+    transform: translate(100%, 100%);
+  }
+
+  75% {
+    transform: translate(0, 100%);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+/*# sourceMappingURL=src_app_components_style_css_e59ae46c._.single.css.map*/
