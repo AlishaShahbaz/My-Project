@@ -1,4 +1,4 @@
-import User from "@/models/User";
+import User from "../../models/User";
 import { connectDB } from "@/lib/mongoose";
 
 export async function POST(req) {
